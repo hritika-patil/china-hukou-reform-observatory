@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="China Hukou Reform Observatory — a source-led research infrastructure for studying household registration, public-service eligibility, and centre–local implementation across mainland China's 31 provincial-level jurisdictions." />
+  <meta name="theme-color" content="#122e3d" />
+  <title>China Hukou Reform Observatory | Mapping policy and public services</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner page-width">
+      <a class="brand" href="#top" aria-label="China Hukou Reform Observatory home">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 42 42" width="36" height="36"><circle cx="21" cy="21" r="17" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M21 4v34M4 21h34M7 12q14 7 28 0M7 30q14-7 28 0" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="27" cy="17" r="4.5" fill="#dca969"/></svg></span>
+        <span class="brand-name">HUKOU<span class="brand-sub">OBSERVATORY</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#explorer">Explore map</a><a href="#all-provinces">Coverage</a><a href="#audit-explorer">124 evidence checks</a><a href="#comparison">Compare</a><a href="#policy-records">Policy records</a><a href="#methodology">Methodology</a></nav>
+      <a class="header-action" href="#explorer">Explore the data <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section id="top" class="hero-wrap">
+      <div class="page-width hero">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A PROVINCE-BY-PROVINCE RESEARCH PROJECT <span class="edition">EDITION 0.3</span></div>
+          <h1>Where does <em>hukou reform</em> actually reach?</h1>
+          <p class="hero-lede">Mapping the distance between China's national household registration priorities and the conditions governing urban settlement, education, housing and social protection.</p>
+          <div class="hero-buttons"><a class="btn btn-primary" href="#explorer">Explore the interactive map <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#methodology">Read our approach</a></div>
+          <p class="hero-note"><span class="tiny-dot"></span> Evidence audit · Updated 12 November 2026 · No unverified provincial scores</p>
+        </div>
+        <aside class="question-card" aria-label="Research framework">
+          <span class="mini-heading">THE CENTRAL QUESTION</span>
+          <p class="question">How do local governments translate national hukou reform priorities into different conditions for membership and access?</p>
+          <div class="question-rule"></div>
+          <div class="question-points"><div><span>01</span><p>Who can obtain local hukou?</p></div><div><span>02</span><p>Who receives public services without it?</p></div><div><span>03</span><p>Where do implementation rules diverge?</p></div></div>
+        </aside>
+      </div>
+    </section>
+    <section class="status-strip"><div class="page-width stat-grid">
+      <div class="stat"><strong id="metric-jurisdictions">31</strong><span>MAINLAND JURISDICTIONS</span></div>
+      <div class="stat"><strong id="metric-localities">124</strong><span>DIMENSION AUDIT CELLS</span></div>
+      <div class="stat"><strong id="metric-national">4</strong><span>NATIONAL DOCUMENTS VERIFIED</span></div>
+      <div class="stat"><strong id="metric-local">42</strong><span>LOCAL DOCUMENTS INDEXED</span></div>
+      <div class="stat-info"><span class="status-glyph">i</span><p>Coverage shows <strong>verified source records</strong>, not whether hukou restrictions have been reduced.</p></div>
+    </div></section>
+    <section class="framework-section page-width" aria-labelledby="framework-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">THE FRAMEWORK</span><h2 id="framework-title">Four dimensions of access</h2></div><p>Policies may expand registration opportunities without removing conditions on everyday public services. Each dimension is therefore coded separately.</p></div>
+      <div class="framework-grid">
+        <article class="framework-card"><div class="category-index">01 <span>↗</span></div><div class="category-icon">⌂</div><h3>Settlement</h3><p>Local hukou acquisition, residency, employment and points-based eligibility.</p></article>
+        <article class="framework-card"><div class="category-index">02 <span>↗</span></div><div class="category-icon">▤</div><h3>Education</h3><p>School admission, residence permits, migrant children and examination rules.</p></article>
+        <article class="framework-card"><div class="category-index">03 <span>↗</span></div><div class="category-icon">▱</div><h3>Housing</h3><p>Public rental housing, eligibility thresholds and non-local-hukou access.</p></article>
+        <article class="framework-card"><div class="category-index">04 <span>↗</span></div><div class="category-icon">✳</div><h3>Social protection</h3><p>Insurance, portability, employment services and welfare provisions.</p></article>
+      </div>
+    </section>
+    <section id="explorer" class="explore-section"><div class="page-width">
+      <div class="section-heading section-heading-split"><div><span class="overline">01 / INTERACTIVE ATLAS</span><h2>Explore the provincial landscape</h2></div><p>Select a jurisdiction, narrow the policy area and inspect the underlying documents. Colour represents source coverage, never restrictive or permissive policy.</p></div>
+      <div class="explorer-shell">
+        <div class="explorer-toolbar">
+          <div class="control"><label for="dimension">Policy dimension</label><select id="dimension"><option value="all">All dimensions</option><option value="settlement">Settlement</option><option value="education">Education</option><option value="housing">Housing</option><option value="protection">Social protection</option></select></div>
+          <div class="control"><label for="year">Records issued by</label><select id="year"><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option></select></div>
+          <div class="control search-control"><label for="province-search">Find a jurisdiction</label><input type="search" id="province-search" placeholder="Search province / municipality" autocomplete="off" /></div>
+          <div class="toolbar-side"><span class="live-dot"></span> SOURCE COVERAGE MAP</div>
+        </div>
+        <div class="atlas-grid">
+          <div class="map-column">
+            <div class="map-caption"><div><span class="mini-heading">MAINLAND CHINA</span><strong>31 provincial-level jurisdictions</strong></div><div class="map-zoom"><button type="button" id="zoom-in" aria-label="Zoom map in">+</button><button type="button" id="zoom-out" aria-label="Zoom map out">−</button><button type="button" id="zoom-reset" aria-label="Reset map zoom" title="Reset zoom">↺</button></div></div>
+            <div class="map-stage" id="map-stage">
+              <svg id="china-map" viewBox="0 0 840 545" aria-label="Interactive map of mainland China's 31 provincial-level jurisdictions" role="group"><g id="map-regions"></g></svg>
+              <div class="map-prompt" id="map-prompt" role="status">Loading province boundaries…</div>
+              <div class="map-tooltip" id="map-tooltip" hidden></div>
+            </div>
+            <div class="map-legend"><span class="legend-label">Local evidence coverage</span><span><i class="swatch swatch-verified"></i>Source verified</span><span><i class="swatch swatch-unverified"></i>Awaiting verification</span></div>
+            <p class="map-footnote">Only locally applicable documents count towards map coverage. National directives appear in the policy library below. Map geometry is indicative; see methodology and attribution.</p>
+          </div>
+          <aside class="province-panel" id="province-panel" aria-live="polite"><div class="empty-panel"><span class="empty-icon">↗</span><h3>Select a province</h3><p>Click the map or select a jurisdiction below to inspect its available policy evidence and research status.</p></div></aside>
+        </div>
+        <div class="province-directory"><div class="directory-head"><strong>Browse all jurisdictions</strong><span id="directory-count">31 entries</span></div><div id="province-list" class="province-chips"></div></div>
+      </div>
+    </div></section>
+    <section id="all-provinces" class="coverage-section page-width" aria-labelledby="coverage-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">02 / NATIONAL RESEARCH REGISTER</span><h2 id="coverage-title">All 31 jurisdictions, one research protocol</h2></div><p>Each provincial-level jurisdiction has its own dossier, two priority localities and four separate policy categories. Indexed sources are not the same as a completed legal or implementation audit.</p></div>
+      <div class="coverage-notice"><span class="status-glyph">i</span><p><strong>31 of 31 jurisdiction dossiers with source anchors.</strong> Source verification remains incomplete. Each jurisdiction has at least one geographically scoped public source record. The <strong>124 province-by-dimension audit entries</strong> distinguish documented rules, policy intentions, related administrative documents and unverified eligibility. This is not a 124-rule legal certification or a measurement of implementation.</p></div>
+      <div class="coverage-actions"><label for="coverage-search">Find province or city</label><input type="search" id="coverage-search" placeholder="Search province, city or region" autocomplete="off"/><a href="data/policy_audits_124.csv" download class="btn btn-dark">↓ Download 124 audit findings</a></div>
+      <div class="coverage-table-wrap"><table class="coverage-table"><thead><tr><th>JURISDICTION</th><th>REGION / TYPE</th><th>PRIMARY LOCALITY</th><th>COMPARISON LOCALITY</th><th>INDEXED DOCUMENTS</th><th>PROFILE</th></tr></thead><tbody id="coverage-body"></tbody></table><p id="coverage-empty" hidden class="records-empty">No matching jurisdiction.</p></div>
+      <p class="coverage-footnote">Municipalities are assessed using district-level contrast cases; these are not separate cities. Source counts include both province-wide and geographically limited documents. See <a href="PROVINCIAL_COVERAGE.md">coverage register</a> and <a href="METHODOLOGY.md">methods</a>.</p>
+    </section>
+
+    <section id="audit-explorer" class="audit-section page-width" aria-labelledby="audit-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">03 / 124 EVIDENCE ASSESSMENTS</span><h2 id="audit-title">What is documented — and what is not</h2></div><p>Each province is checked separately for settlement, education, housing and social protection. A provincial programme is not a confirmed individual entitlement.</p></div>
+      <div class="audit-legend"><span><i class="mini-rule"></i>Rule documented</span><span><i class="mini-plan"></i>Policy direction</span><span><i class="mini-rel"></i>Related document</span><span><i class="mini-unknown"></i>Unverified</span></div>
+      <div class="audit-controls"><label for="audit-search" class="sr-only">Search audits</label><input type="search" id="audit-search" placeholder="Find province, policy or finding" /><label for="audit-dimension" class="sr-only">Dimension</label><select id="audit-dimension"><option value="all">All four policy areas</option><option value="settlement">Settlement</option><option value="education">Education</option><option value="housing">Housing</option><option value="protection">Social protection</option></select><label for="audit-status" class="sr-only">Evidence type</label><select id="audit-status"><option value="all">All evidence statuses</option><option value="rule-documented">Rule documented</option><option value="direction-documented">Policy direction</option><option value="related-document">Related document</option><option value="unverified">Unverified</option></select><span id="audit-count" class="audit-count">124 entries</span></div>
+      <div class="audit-wrap"><table class="audit-table"><thead><tr><th>JURISDICTION</th><th>DIMENSION</th><th>EVIDENCE CLASS</th><th>DOCUMENTED FINDING & OPEN QUESTIONS</th><th>ORIGINAL SOURCE</th></tr></thead><tbody id="audit-body"></tbody></table></div>
+      <p class="coverage-footnote">All rows record evidence as of 12 November 2026. Results are not indicators of actual service uptake or a legal opinion. <a href="data/policy_audits_124.csv" download>Download complete 124-row CSV</a>.</p>
+    </section>
+    <section id="comparison" class="comparison-section page-width"><div class="section-heading section-heading-split"><div><span class="overline">04 / COMPARATIVE LENS</span><h2>Compare jurisdictions</h2></div><p>Compare the documented evidence held in the database. The four areas are compared by type and content of evidence, not reform scores.</p></div>
+      <div class="comparison-wrap"><div class="comparison-top"><p><strong id="selection-count">0 of 3</strong> jurisdictions selected <span>· Choose from the map, province panel or selector below.</span></p><button class="link-button" id="clear-compare" type="button">Clear selection ↺</button></div><div class="compare-add"><label for="compare-select">Add a jurisdiction</label><select id="compare-select"><option value="">Select a jurisdiction…</option></select><button type="button" id="compare-add-btn" class="btn btn-dark">Add to comparison +</button></div><div id="comparison-content" class="compare-content"><div class="compare-placeholder">Choose up to three jurisdictions to begin a source-based comparison.</div></div></div>
+    </section>
+    <section id="policy-records" class="records-section"><div class="page-width"><div class="section-heading section-heading-split"><div><span class="overline">05 / DOCUMENT LIBRARY</span><h2>Policy record & timeline</h2></div><p>Trace national framework documents, local regulations, public-sector plans and municipal examples from 2014 to 2026. Dates may be publication rather than original issuance; view evidence type and the original source.</p></div>
+      <div class="records-top"><div class="records-tabs" role="group" aria-label="Filter policy records"><button type="button" data-scope="all" class="active">All records</button><button type="button" data-scope="national">National</button><button type="button" data-scope="provincial">Provincial</button><button type="button" data-scope="municipal">Municipal</button></div><div class="records-tools"><input id="records-search" type="search" aria-label="Search policy documents" placeholder="Search documents, city, or code" /><button id="export-csv" type="button" class="btn-export">↓ Export CSV</button></div></div>
+      <div class="records-table-wrap"><table class="records-table"><thead><tr><th>YEAR / DATE</th><th>POLICY DOCUMENT</th><th>LEVEL</th><th>DIMENSIONS</th><th>SOURCE</th></tr></thead><tbody id="records-body"></tbody></table><p id="records-empty" class="records-empty" hidden>No matching records in this release.</p></div>
+    </div></section>
+    <section id="methodology" class="method-section page-width"><div class="section-heading"><span class="overline">06 / RESEARCH PROTOCOL</span><h2>What this tracker does — and does not — measure</h2></div>
+      <div class="method-grid"><div class="method-lead"><p>Hukou access is not a single variable. It involves registration, residency documentation, service eligibility and the practices through which eligibility is administered.</p><a href="METHODOLOGY.md" target="_blank" rel="noopener" class="text-link">Full coding methodology ↗</a></div><div class="method-points">
+        <div><span>01</span><div><h3>Separate national ambition from local rules</h3><p>National documents establish policy priorities; they are never counted as proof that a local eligibility condition has changed.</p></div></div>
+        <div><span>02</span><div><h3>Distinguish law from implementation</h3><p>Formal policy provisions are coded separately from measured uptake, access outcomes and implementation evidence.</p></div></div>
+        <div><span>03</span><div><h3>Preserve unknowns</h3><p>Without a verified primary document, a jurisdiction is marked <em>awaiting verification</em>, not ranked as restrictive or permissive.</p></div></div>
+        <div><span>04</span><div><h3>Respect municipal variation</h3><p>Provincial jurisdiction does not imply uniformity across cities, districts or individual service schemes.</p></div></div>
+      </div></div>
+      <div class="research-next"><span class="tiny-star">✧</span><div><span class="mini-heading">RESEARCH AGENDA</span><h3>The Hukou Access Gap</h3><p>A future analytical layer will ask whether easing settlement requirements is accompanied by meaningful access to education, housing and social protection — once comparable, date-specific local evidence has been coded.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-layout"><div><div class="footer-brand">HUKOU <span>OBSERVATORY</span></div><p>An independent, source-led research prototype on Chinese household registration and local governance.</p></div><div class="footer-links"><a href="#explorer">Atlas</a><a href="#all-provinces">31-jurisdiction coverage</a><a href="#policy-records">Documents</a><a href="#methodology">Methodology</a><a href="https://github.com/BarbarossaWang/cn-atlas" target="_blank" rel="noopener">Boundary source ↗</a></div><div class="footer-copy"><p>Research prototype · November 2026</p><p>Geography: 31 mainland provincial-level jurisdictions only. No representation regarding territorial sovereignty or international boundary disputes.</p></div></div></footer>
+</body>
+</html>

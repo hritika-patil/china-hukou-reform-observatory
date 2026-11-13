@@ -1,0 +1,947 @@
+[
+  {
+    "id": "31-0",
+    "name": "Shanghai municipality (citywide)",
+    "province_code": "31",
+    "unit_type": "Provincial-level municipality",
+    "priority": "Primary",
+    "status": "one-local-document-verified",
+    "scope": "A sourced 2026 citywide compulsory-school admission notice is recorded. The district-specific implementation and other policy areas remain to be verified.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "11-1",
+    "name": "Chaoyang District",
+    "province_code": "11",
+    "unit_type": "District",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Urban core and migrant education. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "11-2",
+    "name": "Tongzhou District",
+    "province_code": "11",
+    "unit_type": "District",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Subcentre settlement and service rules. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "12-1",
+    "name": "Heping District",
+    "province_code": "12",
+    "unit_type": "District",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Core municipal service eligibility. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "12-2",
+    "name": "Binhai New Area",
+    "province_code": "12",
+    "unit_type": "District",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Development-area residence and settlement. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "13-1",
+    "name": "Shijiazhuang",
+    "province_code": "13",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital settlement and services. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "13-2",
+    "name": "Tangshan",
+    "province_code": "13",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Industrial city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "14-1",
+    "name": "Taiyuan",
+    "province_code": "14",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital settlement and services. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "14-2",
+    "name": "Datong",
+    "province_code": "14",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "15-1",
+    "name": "Hohhot",
+    "province_code": "15",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Autonomous-region capital policies. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "15-2",
+    "name": "Baotou",
+    "province_code": "15",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Industrial-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "21-1",
+    "name": "Shenyang",
+    "province_code": "21",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "21-2",
+    "name": "Dalian",
+    "province_code": "21",
+    "unit_type": "Sub-provincial city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Coastal city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "22-1",
+    "name": "Changchun",
+    "province_code": "22",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "22-2",
+    "name": "Jilin City",
+    "province_code": "22",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "23-1",
+    "name": "Harbin",
+    "province_code": "23",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "23-2",
+    "name": "Qiqihar",
+    "province_code": "23",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "31-1",
+    "name": "Pudong New Area",
+    "province_code": "31",
+    "unit_type": "District",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Compulsory education and residence rules. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "31-2",
+    "name": "Minhang District",
+    "province_code": "31",
+    "unit_type": "District",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "District-level school admission and public rental housing. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "32-1",
+    "name": "Nanjing",
+    "province_code": "32",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "32-2",
+    "name": "Suzhou",
+    "province_code": "32",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "High-migration city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "33-1",
+    "name": "Hangzhou",
+    "province_code": "33",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital and digital-governance rules. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "33-2",
+    "name": "Ningbo",
+    "province_code": "33",
+    "unit_type": "Sub-provincial city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Coastal city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "34-1",
+    "name": "Hefei",
+    "province_code": "34",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital settlement and services. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "34-2",
+    "name": "Wuhu",
+    "province_code": "34",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Industrial-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "35-1",
+    "name": "Fuzhou",
+    "province_code": "35",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital registration implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "35-2",
+    "name": "Xiamen",
+    "province_code": "35",
+    "unit_type": "Sub-provincial city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Coastal city eligibility. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "36-1",
+    "name": "Nanchang",
+    "province_code": "36",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "36-2",
+    "name": "Ganzhou",
+    "province_code": "36",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "37-1",
+    "name": "Jinan",
+    "province_code": "37",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "37-2",
+    "name": "Qingdao",
+    "province_code": "37",
+    "unit_type": "Sub-provincial city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Large coastal-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "41-1",
+    "name": "Zhengzhou",
+    "province_code": "41",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital settlement. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "41-2",
+    "name": "Luoyang",
+    "province_code": "41",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "42-1",
+    "name": "Wuhan",
+    "province_code": "42",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Major-city settlement and points rules. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "42-2",
+    "name": "Yichang",
+    "province_code": "42",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "43-1",
+    "name": "Changsha",
+    "province_code": "43",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "43-2",
+    "name": "Zhuzhou",
+    "province_code": "43",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "44-1",
+    "name": "Guangzhou",
+    "province_code": "44",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Major migrant destination and points rules. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "44-2",
+    "name": "Shenzhen",
+    "province_code": "44",
+    "unit_type": "Sub-provincial city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Special economic zone service access. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "45-1",
+    "name": "Nanning",
+    "province_code": "45",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Autonomous-region capital policies. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "45-2",
+    "name": "Liuzhou",
+    "province_code": "45",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Industrial city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "46-1",
+    "name": "Haikou",
+    "province_code": "46",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital settlement and services. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "46-2",
+    "name": "Sanya",
+    "province_code": "46",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Tourism city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "50-1",
+    "name": "Yuzhong District",
+    "province_code": "50",
+    "unit_type": "District",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Central-urban hukou and public services. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "50-2",
+    "name": "Wanzhou District",
+    "province_code": "50",
+    "unit_type": "District",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Different urbanisation zone within municipality. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "51-1",
+    "name": "Chengdu",
+    "province_code": "51",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Existing longitudinal research case. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "51-2",
+    "name": "Mianyang",
+    "province_code": "51",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "52-1",
+    "name": "Guiyang",
+    "province_code": "52",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Existing longitudinal research case. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "52-2",
+    "name": "Zunyi",
+    "province_code": "52",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "53-1",
+    "name": "Kunming",
+    "province_code": "53",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "53-2",
+    "name": "Qujing",
+    "province_code": "53",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "54-1",
+    "name": "Lhasa",
+    "province_code": "54",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Autonomous-region capital policies. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "54-2",
+    "name": "Shigatse",
+    "province_code": "54",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "61-1",
+    "name": "Xi’an",
+    "province_code": "61",
+    "unit_type": "Sub-provincial city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Major-city settlement conditions. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "61-2",
+    "name": "Xianyang",
+    "province_code": "61",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Metropolitan integration comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "62-1",
+    "name": "Lanzhou",
+    "province_code": "62",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "62-2",
+    "name": "Tianshui",
+    "province_code": "62",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Non-capital comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "63-1",
+    "name": "Xining",
+    "province_code": "63",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Provincial-capital implementation. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "63-2",
+    "name": "Haidong",
+    "province_code": "63",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Secondary-city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "64-1",
+    "name": "Yinchuan",
+    "province_code": "64",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Autonomous-region capital policies. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "64-2",
+    "name": "Shizuishan",
+    "province_code": "64",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Industrial city comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "65-1",
+    "name": "Urumqi",
+    "province_code": "65",
+    "unit_type": "Prefecture-level city",
+    "priority": "Primary",
+    "status": "research-queue",
+    "scope": "Autonomous-region capital policies. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  },
+  {
+    "id": "65-2",
+    "name": "Kashgar",
+    "province_code": "65",
+    "unit_type": "Prefecture-level city",
+    "priority": "Comparative",
+    "status": "research-queue",
+    "scope": "Southern Xinjiang comparison. Settlement, education, housing and social-protection rules must be sourced independently.",
+    "policy_dimensions": [
+      "settlement",
+      "education",
+      "housing",
+      "protection"
+    ]
+  }
+]

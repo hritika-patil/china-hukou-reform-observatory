@@ -1,0 +1,602 @@
+[
+  {
+    "code": "11",
+    "name": "Beijing",
+    "name_zh": "北京",
+    "type": "Municipality",
+    "region": "North",
+    "capital": "Beijing",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Chaoyang District",
+      "Tongzhou District"
+    ],
+    "source_ids": [
+      "BEI-2020-POINTS",
+      "BEI-2026-POINTS"
+    ],
+    "audit_summary": "Beijing retains a points-based urban settlement procedure as shown by its administrative management rules and 2026 application notice.",
+    "audit_evidence_type": "operational-rule"
+  },
+  {
+    "code": "12",
+    "name": "Tianjin",
+    "name_zh": "天津",
+    "type": "Municipality",
+    "region": "North",
+    "capital": "Tianjin",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Heping District",
+      "Binhai New Area"
+    ],
+    "source_ids": [
+      "TJN-2021-PERMIT",
+      "TJN-2025-NEW"
+    ],
+    "audit_summary": "The municipality operates residence-permit points-based settlement, with a defined period for its residence-permit regulations and a 2025 new-resident services initiative.",
+    "audit_evidence_type": "operational-rule"
+  },
+  {
+    "code": "13",
+    "name": "Hebei",
+    "name_zh": "河北",
+    "type": "Province",
+    "region": "North",
+    "capital": "Shijiazhuang",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Shijiazhuang",
+      "Tangshan"
+    ],
+    "source_ids": [
+      "HEB-2026-PLAN"
+    ],
+    "audit_summary": "The 2026 provincial strategic plan seeks less restrictive settlement and broader residence-based services; binding city eligibility is not specified there.",
+    "audit_evidence_type": "strategic-plan"
+  },
+  {
+    "code": "14",
+    "name": "Shanxi",
+    "name_zh": "山西",
+    "type": "Province",
+    "region": "North",
+    "capital": "Taiyuan",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Taiyuan",
+      "Datong"
+    ],
+    "source_ids": [
+      "SHA-2024-NORM"
+    ],
+    "audit_summary": "Provincial police rules standardise household-registration and migration processes; municipal access tests are not fully established.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "15",
+    "name": "Inner Mongolia",
+    "name_zh": "内蒙古",
+    "type": "Autonomous region",
+    "region": "North",
+    "capital": "Hohhot",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Hohhot",
+      "Baotou"
+    ],
+    "source_ids": [
+      "NMG-2024-REFORM"
+    ],
+    "audit_summary": "A regional directive republished by local government describes stable-residence or stable-employment routes to urban hukou. Original issue date needs confirmation.",
+    "audit_evidence_type": "policy-directive"
+  },
+  {
+    "code": "21",
+    "name": "Liaoning",
+    "name_zh": "辽宁",
+    "type": "Province",
+    "region": "Northeast",
+    "capital": "Shenyang",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Shenyang",
+      "Dalian"
+    ],
+    "source_ids": [
+      "LIA-2024-POLICE"
+    ],
+    "audit_summary": "Provincial public security convenience measures are indexed, but this source alone does not prove across-the-board service eligibility.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "22",
+    "name": "Jilin",
+    "name_zh": "吉林",
+    "type": "Province",
+    "region": "Northeast",
+    "capital": "Changchun",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Changchun",
+      "Jilin City"
+    ],
+    "source_ids": [
+      "JIL-2024-HUKOU"
+    ],
+    "audit_summary": "Provincial hukou and ID management norms are indexed; comparative service eligibility requires city-specific regulations.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "23",
+    "name": "Heilongjiang",
+    "name_zh": "黑龙江",
+    "type": "Province",
+    "region": "Northeast",
+    "capital": "Harbin",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Harbin",
+      "Qiqihar"
+    ],
+    "source_ids": [
+      "HLJ-2025-MIGRANT"
+    ],
+    "audit_summary": "A 2025 multi-agency official implementation opinion reiterates zero-threshold urban settlement and migrant public-service coverage.",
+    "audit_evidence_type": "implementation-measures"
+  },
+  {
+    "code": "31",
+    "name": "Shanghai",
+    "name_zh": "上海",
+    "type": "Municipality",
+    "region": "East",
+    "capital": "Shanghai",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Pudong New Area",
+      "Minhang District"
+    ],
+    "source_ids": [
+      "SHA-2026-EDU"
+    ],
+    "audit_summary": "Shanghai publishes citywide school admission rules; actual migrant access is partly implemented by district and schooling stage, while settlement requires other documents.",
+    "audit_evidence_type": "municipal-rule"
+  },
+  {
+    "code": "32",
+    "name": "Jiangsu",
+    "name_zh": "江苏",
+    "type": "Province",
+    "region": "East",
+    "capital": "Nanjing",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Nanjing",
+      "Suzhou"
+    ],
+    "source_ids": [
+      "JIA-2026-PILOT",
+      "JSU-2024-ACTION"
+    ],
+    "audit_summary": "The 2024 provincial plan calls for further settlement reform in Nanjing and Suzhou and development of resident-based public services.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "33",
+    "name": "Zhejiang",
+    "name_zh": "浙江",
+    "type": "Province",
+    "region": "East",
+    "capital": "Hangzhou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Hangzhou",
+      "Ningbo"
+    ],
+    "source_ids": [
+      "ZHE-2023-REFORM",
+      "ZHE-2024-JIAXING"
+    ],
+    "audit_summary": "Provincial reforms distinguish Hangzhou from other cities; Jiaxing's 2024 local reform specifies a residence-permit conversion path.",
+    "audit_evidence_type": "operational-rule"
+  },
+  {
+    "code": "34",
+    "name": "Anhui",
+    "name_zh": "安徽",
+    "type": "Province",
+    "region": "East",
+    "capital": "Hefei",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Hefei",
+      "Wuhu"
+    ],
+    "source_ids": [
+      "ANH-2025-PLAN"
+    ],
+    "audit_summary": "The 2025 province plan includes specific social-insurance and employment settlement pathways for Hefei and calls for broader provincial reforms.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "35",
+    "name": "Fujian",
+    "name_zh": "福建",
+    "type": "Province",
+    "region": "East",
+    "capital": "Fuzhou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Fuzhou",
+      "Xiamen"
+    ],
+    "source_ids": [
+      "FUJ-2016-REG",
+      "FUJ-2021-ADMIN"
+    ],
+    "audit_summary": "Provincial registration norms are indexed; the Fuzhou metropolitan 2025 plan separately describes zero-threshold registration, not the whole province's current application conditions.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "36",
+    "name": "Jiangxi",
+    "name_zh": "江西",
+    "type": "Province",
+    "region": "East",
+    "capital": "Nanchang",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Nanchang",
+      "Ganzhou"
+    ],
+    "source_ids": [
+      "JXI-2025-REFORM"
+    ],
+    "audit_summary": "The 2025 public-security reform directive provides for province-wide residence permit reciprocity and service-access development.",
+    "audit_evidence_type": "policy-directive"
+  },
+  {
+    "code": "37",
+    "name": "Shandong",
+    "name_zh": "山东",
+    "type": "Province",
+    "region": "East",
+    "capital": "Jinan",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Jinan",
+      "Qingdao"
+    ],
+    "source_ids": [
+      "SDG-2026-YANTAI"
+    ],
+    "audit_summary": "A currently published Yantai municipal rule removes urban settlement barriers locally; Shandong-wide eligibility requires independent provincial and other municipal checks.",
+    "audit_evidence_type": "municipal-rule"
+  },
+  {
+    "code": "41",
+    "name": "Henan",
+    "name_zh": "河南",
+    "type": "Province",
+    "region": "Central",
+    "capital": "Zhengzhou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Zhengzhou",
+      "Luoyang"
+    ],
+    "source_ids": [
+      "HEN-2026-PLAN"
+    ],
+    "audit_summary": "The 2026 planning document calls for settlement convenience and basic-service equalisation but does not specify applicant-level eligibility.",
+    "audit_evidence_type": "strategic-plan"
+  },
+  {
+    "code": "42",
+    "name": "Hubei",
+    "name_zh": "湖北",
+    "type": "Province",
+    "region": "Central",
+    "capital": "Wuhan",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Wuhan",
+      "Yichang"
+    ],
+    "source_ids": [
+      "HUB-2026-PLAN",
+      "HUB-2025-POLICE"
+    ],
+    "audit_summary": "The 2026 provincial plan explicitly distinguishes Wuhan from other cities on settlement; additional police procedural rules are indexed.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "43",
+    "name": "Hunan",
+    "name_zh": "湖南",
+    "type": "Province",
+    "region": "Central",
+    "capital": "Changsha",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Changsha",
+      "Zhuzhou"
+    ],
+    "source_ids": [
+      "HUN-2026-REG"
+    ],
+    "audit_summary": "Provincial household-registration administration regulations were indexed in 2026; service entitlement requires additional administrative sources.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "44",
+    "name": "Guangdong",
+    "name_zh": "广东",
+    "type": "Province",
+    "region": "South",
+    "capital": "Guangzhou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Guangzhou",
+      "Shenzhen"
+    ],
+    "source_ids": [
+      "GDG-2024-DONGGUAN"
+    ],
+    "audit_summary": "Dongguan maintains its own 2024 municipal hukou reform rules; these do not stand in for Guangzhou, Shenzhen or the other municipalities.",
+    "audit_evidence_type": "municipal-rule"
+  },
+  {
+    "code": "45",
+    "name": "Guangxi",
+    "name_zh": "广西",
+    "type": "Autonomous region",
+    "region": "South",
+    "capital": "Nanning",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Nanning",
+      "Liuzhou"
+    ],
+    "source_ids": [
+      "GXG-2026-REFORM"
+    ],
+    "audit_summary": "The 2026 autonomous-region guidance adopts stable employment or housing (including rental) routes, delegating key definitions to local governments.",
+    "audit_evidence_type": "policy-directive"
+  },
+  {
+    "code": "46",
+    "name": "Hainan",
+    "name_zh": "海南",
+    "type": "Province",
+    "region": "South",
+    "capital": "Haikou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Haikou",
+      "Sanya"
+    ],
+    "source_ids": [
+      "HAI-2026-GRAD"
+    ],
+    "audit_summary": "A Hainan graduate-specific policy allows qualifying graduates to settle before employment in most of the province but does not establish rules for all migrants.",
+    "audit_evidence_type": "targeted-measures"
+  },
+  {
+    "code": "50",
+    "name": "Chongqing",
+    "name_zh": "重庆",
+    "type": "Municipality",
+    "region": "Southwest",
+    "capital": "Chongqing",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Yuzhong District",
+      "Wanzhou District"
+    ],
+    "source_ids": [
+      "CHQ-2020-REG"
+    ],
+    "audit_summary": "Chongqing household migration registration procedures are documented in a 2020 municipal rule; later service eligibility needs additional source review.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "51",
+    "name": "Sichuan",
+    "name_zh": "四川",
+    "type": "Province",
+    "region": "Southwest",
+    "capital": "Chengdu",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "3 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Chengdu",
+      "Mianyang"
+    ],
+    "source_ids": [
+      "SIC-2025-ACTION",
+      "SIC-2026-SERVICES",
+      "SIC-2026-CHENGDU"
+    ],
+    "audit_summary": "Sichuan separates Chengdu's settlement pathway from the remaining cities and enacted a 2026 residence-based public-service programme.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "52",
+    "name": "Guizhou",
+    "name_zh": "贵州",
+    "type": "Province",
+    "region": "Southwest",
+    "capital": "Guiyang",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Guiyang",
+      "Zunyi"
+    ],
+    "source_ids": [
+      "GUI-2025-ACTION"
+    ],
+    "audit_summary": "Guizhou's 2024–2028 provincial plan reiterates removal of urban settlement restrictions and calls for expanded public services.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "53",
+    "name": "Yunnan",
+    "name_zh": "云南",
+    "type": "Province",
+    "region": "Southwest",
+    "capital": "Kunming",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Kunming",
+      "Qujing"
+    ],
+    "source_ids": [
+      "YUN-2023-POLICE"
+    ],
+    "audit_summary": "Yunnan police procedural reforms cover lawful rental and employment-based migration applications but are not a substitute for substantive eligibility rules.",
+    "audit_evidence_type": "administrative-rule"
+  },
+  {
+    "code": "54",
+    "name": "Tibet",
+    "name_zh": "西藏",
+    "type": "Autonomous region",
+    "region": "Southwest",
+    "capital": "Lhasa",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Lhasa",
+      "Shigatse"
+    ],
+    "source_ids": [
+      "TIB-2025-ACTION"
+    ],
+    "audit_summary": "Tibet's 2025 implementation plan removes settlement barriers in counties and towns and proposes broader residence-based services.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "61",
+    "name": "Shaanxi",
+    "name_zh": "陕西",
+    "type": "Province",
+    "region": "Northwest",
+    "capital": "Xi’an",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Xi’an",
+      "Xianyang"
+    ],
+    "source_ids": [
+      "SNX-2024-ACTION"
+    ],
+    "audit_summary": "Shaanxi's 2024 plan removes settlement restrictions outside Xi'an, with explicit metropolitan exceptions and future service objectives.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "62",
+    "name": "Gansu",
+    "name_zh": "甘肃",
+    "type": "Province",
+    "region": "Northwest",
+    "capital": "Lanzhou",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "1 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Lanzhou",
+      "Tianshui"
+    ],
+    "source_ids": [
+      "GAN-2025-ACTION"
+    ],
+    "audit_summary": "Gansu's 2025 provincial plan reiterates zero-threshold urban settlement; operational public-service rules still vary locally.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "63",
+    "name": "Qinghai",
+    "name_zh": "青海",
+    "type": "Province",
+    "region": "Northwest",
+    "capital": "Xining",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Xining",
+      "Haidong"
+    ],
+    "source_ids": [
+      "QHA-2025-PLAN",
+      "QHA-2026-NDRC"
+    ],
+    "audit_summary": "The Qinghai 2025 government report and 2026 NDRC official report document urbanisation and services commitments, not complete applicant-level rules.",
+    "audit_evidence_type": "government-report"
+  },
+  {
+    "code": "64",
+    "name": "Ningxia",
+    "name_zh": "宁夏",
+    "type": "Autonomous region",
+    "region": "Northwest",
+    "capital": "Yinchuan",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Yinchuan",
+      "Shizuishan"
+    ],
+    "source_ids": [
+      "NXG-2023-ACTION",
+      "NXG-2025-RESPONSE"
+    ],
+    "audit_summary": "Ningxia's 2023 five-year programme calls for removing settlement restrictions, and a 2025 government reply reports related reforms.",
+    "audit_evidence_type": "implementation-plan"
+  },
+  {
+    "code": "65",
+    "name": "Xinjiang",
+    "name_zh": "新疆",
+    "type": "Autonomous region",
+    "region": "Northwest",
+    "capital": "Ürümqi",
+    "review_status": "local-evidence-indexed",
+    "coverage_note": "2 locally scoped public document(s) indexed. This is an evidence inventory, NOT a full eligibility or implementation audit.",
+    "priority_localities": [
+      "Urumqi",
+      "Kashgar"
+    ],
+    "source_ids": [
+      "XJG-2024-REG",
+      "XJG-2024-URUMQI"
+    ],
+    "audit_summary": "The regional police registration rule is available, and Urumqi published separate 2024 settlement conditions for selected application categories.",
+    "audit_evidence_type": "administrative-rule"
+  }
+]

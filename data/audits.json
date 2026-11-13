@@ -1,0 +1,2571 @@
+[
+  {
+    "province_code": "11",
+    "jurisdiction": "Beijing",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "BEI-2020-POINTS",
+      "BEI-2026-POINTS"
+    ],
+    "source_urls": [
+      "https://www.beijing.gov.cn/zhengce/gfxwj/sj/202007/t20200716_1950304.html",
+      "https://www.beijing.gov.cn/zhengce/zhengcefagui/202604/t20260415_4582384.html"
+    ],
+    "evidence_type": [
+      "municipal-rule",
+      "provincial-policy"
+    ],
+    "finding": "Annual administrative implementation notice, not a new comprehensive settlement regime.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "11",
+    "jurisdiction": "Beijing",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "11",
+    "jurisdiction": "Beijing",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "11",
+    "jurisdiction": "Beijing",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "12",
+    "jurisdiction": "Tianjin",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "TJN-2021-PERMIT",
+      "TJN-2025-NEW"
+    ],
+    "source_urls": [
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzf/202112/t20211231_5768456.html",
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202503/t20250327_6894560.html"
+    ],
+    "evidence_type": [
+      "implementation-measures",
+      "operational-rule"
+    ],
+    "finding": "Points settlement is subject to a periodically set threshold. Permit holders are addressed in education and basic-service provisions; precise school and insurance entitlement requires implementing regulations.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "12",
+    "jurisdiction": "Tianjin",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "TJN-2021-PERMIT",
+      "TJN-2025-NEW"
+    ],
+    "source_urls": [
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzf/202112/t20211231_5768456.html",
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202503/t20250327_6894560.html"
+    ],
+    "evidence_type": [
+      "implementation-measures",
+      "operational-rule"
+    ],
+    "finding": "Indexed source: Points settlement is subject to a periodically set threshold. Permit holders are addressed in education and basic-service provisions; precise school and insurance entitlement requires implementing regulations.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "12",
+    "jurisdiction": "Tianjin",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "12",
+    "jurisdiction": "Tianjin",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "TJN-2021-PERMIT",
+      "TJN-2025-NEW"
+    ],
+    "source_urls": [
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzf/202112/t20211231_5768456.html",
+      "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202503/t20250327_6894560.html"
+    ],
+    "evidence_type": [
+      "implementation-measures",
+      "operational-rule"
+    ],
+    "finding": "Indexed source: Points settlement is subject to a periodically set threshold. Permit holders are addressed in education and basic-service provisions; precise school and insurance entitlement requires implementing regulations.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "13",
+    "jurisdiction": "Hebei",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hebcdi.gov.cn/2026-04/28/content_9506230.htm"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Provincial 2026 planning objectives are recorded, but local application thresholds and effective entitlement remain city-specific and unverified.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "13",
+    "jurisdiction": "Hebei",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hebcdi.gov.cn/2026-04/28/content_9506230.htm"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Provincial 2026 planning objectives are recorded, but local application thresholds and effective entitlement remain city-specific and unverified.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "13",
+    "jurisdiction": "Hebei",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hebcdi.gov.cn/2026-04/28/content_9506230.htm"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Provincial 2026 planning objectives are recorded, but local application thresholds and effective entitlement remain city-specific and unverified.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "13",
+    "jurisdiction": "Hebei",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hebcdi.gov.cn/2026-04/28/content_9506230.htm"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Provincial 2026 planning objectives are recorded, but local application thresholds and effective entitlement remain city-specific and unverified.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "14",
+    "jurisdiction": "Shanxi",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "SHA-2024-NORM"
+    ],
+    "source_urls": [
+      "https://xxgk.qinshui.gov.cn/xzf/qsgaj/fdzdgknr/hjglly/202507/t20250716_2169030.shtml"
+    ],
+    "evidence_type": [
+      "administrative-rule"
+    ],
+    "finding": "Indexed source: A provincial procedural framework is available; it does not by itself establish every municipality's settlement thresholds.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "14",
+    "jurisdiction": "Shanxi",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "14",
+    "jurisdiction": "Shanxi",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "14",
+    "jurisdiction": "Shanxi",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "15",
+    "jurisdiction": "Inner Mongolia",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "NMG-2024-REFORM"
+    ],
+    "source_urls": [
+      "https://www.ningchengxian.gov.cn/jczwgk/jczwgk_qbj/jczwgk_hjgl/jczwgk_hjgl_ssqk/202411/t20241105_2453796.html"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: Regional settlement framework identified; original issuance/effectiveness date has not been established from the repost, so the recorded date is the republication date.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "15",
+    "jurisdiction": "Inner Mongolia",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "15",
+    "jurisdiction": "Inner Mongolia",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "15",
+    "jurisdiction": "Inner Mongolia",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "21",
+    "jurisdiction": "Liaoning",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "LIA-2024-POLICE"
+    ],
+    "source_urls": [
+      "https://www.ln.gov.cn/web/zwgkx/lnsrmzfgb/2024n/qk/2024n_dessq77/bmwj/2024112810505721927/index.shtml"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial administrative measure; proof of effective local uptake not yet assessed.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "21",
+    "jurisdiction": "Liaoning",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "21",
+    "jurisdiction": "Liaoning",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "21",
+    "jurisdiction": "Liaoning",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "22",
+    "jurisdiction": "Jilin",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "JIL-2024-HUKOU"
+    ],
+    "source_urls": [
+      "https://xxgk.jl.gov.cn/zcbm/fgw_97975/xxgkmlqy/202405/t20240529_8915016.html"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Administrative registration framework, not a province-wide school/housing eligibility finding.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "22",
+    "jurisdiction": "Jilin",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "22",
+    "jurisdiction": "Jilin",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "22",
+    "jurisdiction": "Jilin",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "23",
+    "jurisdiction": "Heilongjiang",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "HLJ-2025-MIGRANT"
+    ],
+    "source_urls": [
+      "https://hrss.hlj.gov.cn/hrss/c111741/202501/c00_31805101.shtml"
+    ],
+    "evidence_type": [
+      "implementation-measures"
+    ],
+    "finding": "Indexed source: Provincial implementation measures assert province-wide zero-threshold urban registration; school place allocation and benefit access still need institution-specific rules.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "23",
+    "jurisdiction": "Heilongjiang",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "HLJ-2025-MIGRANT"
+    ],
+    "source_urls": [
+      "https://hrss.hlj.gov.cn/hrss/c111741/202501/c00_31805101.shtml"
+    ],
+    "evidence_type": [
+      "implementation-measures"
+    ],
+    "finding": "Indexed source: Provincial implementation measures assert province-wide zero-threshold urban registration; school place allocation and benefit access still need institution-specific rules.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "23",
+    "jurisdiction": "Heilongjiang",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "23",
+    "jurisdiction": "Heilongjiang",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "HLJ-2025-MIGRANT"
+    ],
+    "source_urls": [
+      "https://hrss.hlj.gov.cn/hrss/c111741/202501/c00_31805101.shtml"
+    ],
+    "evidence_type": [
+      "implementation-measures"
+    ],
+    "finding": "Indexed source: Provincial implementation measures assert province-wide zero-threshold urban registration; school place allocation and benefit access still need institution-specific rules.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "31",
+    "jurisdiction": "Shanghai",
+    "dimension": "settlement",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "31",
+    "jurisdiction": "Shanghai",
+    "dimension": "education",
+    "status": "rule-documented",
+    "document_ids": [
+      "SHA-2026-EDU"
+    ],
+    "source_urls": [
+      "https://www.shanghai.gov.cn/gwk/search/content/ac9f198654cf469da99e1830acf3ce69"
+    ],
+    "evidence_type": [
+      "municipal-rule"
+    ],
+    "finding": "Conditional eligibility documented; actual access and outcomes not assessed.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "31",
+    "jurisdiction": "Shanghai",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "31",
+    "jurisdiction": "Shanghai",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "32",
+    "jurisdiction": "Jiangsu",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "JIA-2026-PILOT",
+      "JSU-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.jiangsu.gov.cn/art/2026/3/3/art_46143_11734737.html",
+      "https://www.jiangsu.gov.cn/art/2024/12/17/art_84418_11448142.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: The plan describes future implementation directions and does not prove that Nanjing and Suzhou applicants face identical hukou or service conditions.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "32",
+    "jurisdiction": "Jiangsu",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "JIA-2026-PILOT",
+      "JSU-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.jiangsu.gov.cn/art/2026/3/3/art_46143_11734737.html",
+      "https://www.jiangsu.gov.cn/art/2024/12/17/art_84418_11448142.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: The plan describes future implementation directions and does not prove that Nanjing and Suzhou applicants face identical hukou or service conditions.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "32",
+    "jurisdiction": "Jiangsu",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "JSU-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.jiangsu.gov.cn/art/2024/12/17/art_84418_11448142.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: The plan describes future implementation directions and does not prove that Nanjing and Suzhou applicants face identical hukou or service conditions.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "32",
+    "jurisdiction": "Jiangsu",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "JIA-2026-PILOT",
+      "JSU-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.jiangsu.gov.cn/art/2026/3/3/art_46143_11734737.html",
+      "https://www.jiangsu.gov.cn/art/2024/12/17/art_84418_11448142.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: The plan describes future implementation directions and does not prove that Nanjing and Suzhou applicants face identical hukou or service conditions.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "33",
+    "jurisdiction": "Zhejiang",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "ZHE-2023-REFORM",
+      "ZHE-2024-JIAXING"
+    ],
+    "source_urls": [
+      "https://zjnews.zjol.com.cn/zjnews/202308/t20230801_26043658.shtml?v=1.0",
+      "https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022767.shtml"
+    ],
+    "evidence_type": [
+      "operational-rule",
+      "policy-directive"
+    ],
+    "finding": "Municipal example: a qualified residence permit holder with six months' registered residence in Zhejiang can apply under the stated local pathway; this rule is Jiaxing-specific.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "33",
+    "jurisdiction": "Zhejiang",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "ZHE-2023-REFORM"
+    ],
+    "source_urls": [
+      "https://zjnews.zjol.com.cn/zjnews/202308/t20230801_26043658.shtml?v=1.0"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: Hangzhou is an explicit settlement exception; the provincial reform text cannot establish the current school or housing eligibility for any specific Zhejiang city.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "33",
+    "jurisdiction": "Zhejiang",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "ZHE-2023-REFORM"
+    ],
+    "source_urls": [
+      "https://zjnews.zjol.com.cn/zjnews/202308/t20230801_26043658.shtml?v=1.0"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: Hangzhou is an explicit settlement exception; the provincial reform text cannot establish the current school or housing eligibility for any specific Zhejiang city.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "33",
+    "jurisdiction": "Zhejiang",
+    "dimension": "protection",
+    "status": "related-document",
+    "document_ids": [
+      "ZHE-2024-JIAXING"
+    ],
+    "source_urls": [
+      "https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022767.shtml"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: Municipal example: a qualified residence permit holder with six months' registered residence in Zhejiang can apply under the stated local pathway; this rule is Jiaxing-specific.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "34",
+    "jurisdiction": "Anhui",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "ANH-2025-PLAN"
+    ],
+    "source_urls": [
+      "https://xycz.chizhou.gov.cn/news/content/698066062897315840"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Hefei urban-core settlement path in the provincial plan refers to six months of eligible insurance or provident-fund contributions, reduced to three months for applicants under 45; application particulars need municipal verification.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "34",
+    "jurisdiction": "Anhui",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "ANH-2025-PLAN"
+    ],
+    "source_urls": [
+      "https://xycz.chizhou.gov.cn/news/content/698066062897315840"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Hefei urban-core settlement path in the provincial plan refers to six months of eligible insurance or provident-fund contributions, reduced to three months for applicants under 45; application particulars need municipal verification.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "34",
+    "jurisdiction": "Anhui",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "ANH-2025-PLAN"
+    ],
+    "source_urls": [
+      "https://xycz.chizhou.gov.cn/news/content/698066062897315840"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Hefei urban-core settlement path in the provincial plan refers to six months of eligible insurance or provident-fund contributions, reduced to three months for applicants under 45; application particulars need municipal verification.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "34",
+    "jurisdiction": "Anhui",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "ANH-2025-PLAN"
+    ],
+    "source_urls": [
+      "https://xycz.chizhou.gov.cn/news/content/698066062897315840"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Hefei urban-core settlement path in the provincial plan refers to six months of eligible insurance or provident-fund contributions, reduced to three months for applicants under 45; application particulars need municipal verification.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "35",
+    "jurisdiction": "Fujian",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "FUJ-2016-REG",
+      "FUJ-2021-ADMIN"
+    ],
+    "source_urls": [
+      "https://www.fujian.gov.cn/zwgk/zfxxgk/zfxxgkzc/fjsgzk/202112/t20211216_5794839.htm",
+      "https://gat.fujian.gov.cn/zfxxgk/zfxxgkml/gfxwjml/xxyx/202111/t20211117_5775583.htm"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Administrative procedures, not complete coding of all municipal settlement routes.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "35",
+    "jurisdiction": "Fujian",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "35",
+    "jurisdiction": "Fujian",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "35",
+    "jurisdiction": "Fujian",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "36",
+    "jurisdiction": "Jiangxi",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "JXI-2025-REFORM"
+    ],
+    "source_urls": [
+      "https://www.ruijin.gov.cn/rjsxxgk/rj77643du/202512/4d403ab2e4a94bb5a5f185851894fe84.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A Jiangxi-wide reform directive is indexed, including provincial permit reciprocity; local school placement, public rental housing and insurance implementation rules require separate checks.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "36",
+    "jurisdiction": "Jiangxi",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "JXI-2025-REFORM"
+    ],
+    "source_urls": [
+      "https://www.ruijin.gov.cn/rjsxxgk/rj77643du/202512/4d403ab2e4a94bb5a5f185851894fe84.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A Jiangxi-wide reform directive is indexed, including provincial permit reciprocity; local school placement, public rental housing and insurance implementation rules require separate checks.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "36",
+    "jurisdiction": "Jiangxi",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "JXI-2025-REFORM"
+    ],
+    "source_urls": [
+      "https://www.ruijin.gov.cn/rjsxxgk/rj77643du/202512/4d403ab2e4a94bb5a5f185851894fe84.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A Jiangxi-wide reform directive is indexed, including provincial permit reciprocity; local school placement, public rental housing and insurance implementation rules require separate checks.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "36",
+    "jurisdiction": "Jiangxi",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "JXI-2025-REFORM"
+    ],
+    "source_urls": [
+      "https://www.ruijin.gov.cn/rjsxxgk/rj77643du/202512/4d403ab2e4a94bb5a5f185851894fe84.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A Jiangxi-wide reform directive is indexed, including provincial permit reciprocity; local school placement, public rental housing and insurance implementation rules require separate checks.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "37",
+    "jurisdiction": "Shandong",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "SDG-2026-YANTAI"
+    ],
+    "source_urls": [
+      "https://www.yantai.gov.cn/col/col100590/art/2026/art_32d94077b2ffece094d1c77702dfcc17.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "This is a Yantai example, not proof of identical current requirements across all Shandong municipalities.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "37",
+    "jurisdiction": "Shandong",
+    "dimension": "education",
+    "status": "related-document",
+    "document_ids": [
+      "SDG-2026-YANTAI"
+    ],
+    "source_urls": [
+      "https://www.yantai.gov.cn/col/col100590/art/2026/art_32d94077b2ffece094d1c77702dfcc17.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: This is a Yantai example, not proof of identical current requirements across all Shandong municipalities.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "37",
+    "jurisdiction": "Shandong",
+    "dimension": "housing",
+    "status": "related-document",
+    "document_ids": [
+      "SDG-2026-YANTAI"
+    ],
+    "source_urls": [
+      "https://www.yantai.gov.cn/col/col100590/art/2026/art_32d94077b2ffece094d1c77702dfcc17.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: This is a Yantai example, not proof of identical current requirements across all Shandong municipalities.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "37",
+    "jurisdiction": "Shandong",
+    "dimension": "protection",
+    "status": "related-document",
+    "document_ids": [
+      "SDG-2026-YANTAI"
+    ],
+    "source_urls": [
+      "https://www.yantai.gov.cn/col/col100590/art/2026/art_32d94077b2ffece094d1c77702dfcc17.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: This is a Yantai example, not proof of identical current requirements across all Shandong municipalities.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "41",
+    "jurisdiction": "Henan",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEN-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.henanrd.gov.cn/2026/05-25/239944.html"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Province-wide objectives are identified, not city admission standards or social-benefit entitlements.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "41",
+    "jurisdiction": "Henan",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEN-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.henanrd.gov.cn/2026/05-25/239944.html"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Province-wide objectives are identified, not city admission standards or social-benefit entitlements.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "41",
+    "jurisdiction": "Henan",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEN-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.henanrd.gov.cn/2026/05-25/239944.html"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Province-wide objectives are identified, not city admission standards or social-benefit entitlements.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "41",
+    "jurisdiction": "Henan",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "HEN-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.henanrd.gov.cn/2026/05-25/239944.html"
+    ],
+    "evidence_type": [
+      "strategic-plan"
+    ],
+    "finding": "Indexed source: Province-wide objectives are identified, not city admission standards or social-benefit entitlements.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "42",
+    "jurisdiction": "Hubei",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "HUB-2026-PLAN",
+      "HUB-2025-POLICE"
+    ],
+    "source_urls": [
+      "https://www.hubei.gov.cn/zwgk/hbyw/hbywqb/202604/t20260423_5920799.shtml",
+      "https://gat.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202507/t20250724_5730037.shtml"
+    ],
+    "evidence_type": [
+      "administrative-rule",
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial planning baseline; municipal rules and operational status require separate verification.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "42",
+    "jurisdiction": "Hubei",
+    "dimension": "education",
+    "status": "related-document",
+    "document_ids": [
+      "HUB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hubei.gov.cn/zwgk/hbyw/hbywqb/202604/t20260423_5920799.shtml"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial planning baseline; municipal rules and operational status require separate verification.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "42",
+    "jurisdiction": "Hubei",
+    "dimension": "housing",
+    "status": "related-document",
+    "document_ids": [
+      "HUB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hubei.gov.cn/zwgk/hbyw/hbywqb/202604/t20260423_5920799.shtml"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial planning baseline; municipal rules and operational status require separate verification.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "42",
+    "jurisdiction": "Hubei",
+    "dimension": "protection",
+    "status": "related-document",
+    "document_ids": [
+      "HUB-2026-PLAN"
+    ],
+    "source_urls": [
+      "https://www.hubei.gov.cn/zwgk/hbyw/hbywqb/202604/t20260423_5920799.shtml"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial planning baseline; municipal rules and operational status require separate verification.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "43",
+    "jurisdiction": "Hunan",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "HUN-2026-REG"
+    ],
+    "source_urls": [
+      "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfbgt/202603/t20260326_33942240.html"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Provincial registration administration measure; the existence of the rule does not establish service access.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "43",
+    "jurisdiction": "Hunan",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "43",
+    "jurisdiction": "Hunan",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "43",
+    "jurisdiction": "Hunan",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "44",
+    "jurisdiction": "Guangdong",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "GDG-2024-DONGGUAN"
+    ],
+    "source_urls": [
+      "https://www.dg.gov.cn/zwgk/zfgb/2024n/dqq/content/post_4410195.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "A city-specific rule: settlement rules and required documents must not be generalised to Guangzhou, Shenzhen or the whole province.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "44",
+    "jurisdiction": "Guangdong",
+    "dimension": "education",
+    "status": "related-document",
+    "document_ids": [
+      "GDG-2024-DONGGUAN"
+    ],
+    "source_urls": [
+      "https://www.dg.gov.cn/zwgk/zfgb/2024n/dqq/content/post_4410195.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: A city-specific rule: settlement rules and required documents must not be generalised to Guangzhou, Shenzhen or the whole province.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "44",
+    "jurisdiction": "Guangdong",
+    "dimension": "housing",
+    "status": "related-document",
+    "document_ids": [
+      "GDG-2024-DONGGUAN"
+    ],
+    "source_urls": [
+      "https://www.dg.gov.cn/zwgk/zfgb/2024n/dqq/content/post_4410195.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: A city-specific rule: settlement rules and required documents must not be generalised to Guangzhou, Shenzhen or the whole province.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "44",
+    "jurisdiction": "Guangdong",
+    "dimension": "protection",
+    "status": "related-document",
+    "document_ids": [
+      "GDG-2024-DONGGUAN"
+    ],
+    "source_urls": [
+      "https://www.dg.gov.cn/zwgk/zfgb/2024n/dqq/content/post_4410195.html"
+    ],
+    "evidence_type": [
+      "operational-rule"
+    ],
+    "finding": "Indexed source: A city-specific rule: settlement rules and required documents must not be generalised to Guangzhou, Shenzhen or the whole province.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "45",
+    "jurisdiction": "Guangxi",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "GXG-2026-REFORM"
+    ],
+    "source_urls": [
+      "https://byte.gxnews.com.cn/www.gxzf.gov.cn/zfgb/zfgb-2026/d17q_284458/zzqrmzfwj20220520/t28072519.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A region-wide settlement pathway exists, but local definitions of stable employment and residence remain the operative test; public-service text sets policy directions.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "45",
+    "jurisdiction": "Guangxi",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "GXG-2026-REFORM"
+    ],
+    "source_urls": [
+      "https://byte.gxnews.com.cn/www.gxzf.gov.cn/zfgb/zfgb-2026/d17q_284458/zzqrmzfwj20220520/t28072519.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A region-wide settlement pathway exists, but local definitions of stable employment and residence remain the operative test; public-service text sets policy directions.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "45",
+    "jurisdiction": "Guangxi",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "GXG-2026-REFORM"
+    ],
+    "source_urls": [
+      "https://byte.gxnews.com.cn/www.gxzf.gov.cn/zfgb/zfgb-2026/d17q_284458/zzqrmzfwj20220520/t28072519.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A region-wide settlement pathway exists, but local definitions of stable employment and residence remain the operative test; public-service text sets policy directions.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "45",
+    "jurisdiction": "Guangxi",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "GXG-2026-REFORM"
+    ],
+    "source_urls": [
+      "https://byte.gxnews.com.cn/www.gxzf.gov.cn/zfgb/zfgb-2026/d17q_284458/zzqrmzfwj20220520/t28072519.shtml"
+    ],
+    "evidence_type": [
+      "policy-directive"
+    ],
+    "finding": "Indexed source: A region-wide settlement pathway exists, but local definitions of stable employment and residence remain the operative test; public-service text sets policy directions.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "46",
+    "jurisdiction": "Hainan",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "HAI-2026-GRAD"
+    ],
+    "source_urls": [
+      "https://www.ncss.cn/ncss/gjjdfjyzc/df/202604/20260428/2293468852.html"
+    ],
+    "evidence_type": [
+      "targeted-measures"
+    ],
+    "finding": "Indexed source: This is a graduate-specific pathway, not a universal Hainan urban settlement rule; other migrant groups and other services require separate regulations.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "46",
+    "jurisdiction": "Hainan",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "46",
+    "jurisdiction": "Hainan",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "46",
+    "jurisdiction": "Hainan",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "50",
+    "jurisdiction": "Chongqing",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "CHQ-2020-REG"
+    ],
+    "source_urls": [
+      "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/xzgfxwj/szfbgt/202004/t20200408_8837752.html"
+    ],
+    "evidence_type": [
+      "provincial-policy"
+    ],
+    "finding": "Indexed source: Municipality-wide regulation with important internal regional differences; current validity and subsequent changes require continued review.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "50",
+    "jurisdiction": "Chongqing",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "50",
+    "jurisdiction": "Chongqing",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "50",
+    "jurisdiction": "Chongqing",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "51",
+    "jurisdiction": "Sichuan",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "SIC-2025-ACTION",
+      "SIC-2026-CHENGDU"
+    ],
+    "source_urls": [
+      "https://www.sc.gov.cn/10462/zfwjts/2025/3/5/9aaaeb2e214340938f7eb3429842242d/files/%E5%B7%9D%E5%BA%9C%E5%8F%917%E5%8F%B7%E5%85%AC%E5%BC%80%E7%89%88.pdf",
+      "https://chinajob.mohrss.gov.cn/h5/c/2026-06-04/550898.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "operational-rule"
+    ],
+    "finding": "City-specific route: three years of continuous pension insurance and a valid permit; not the settlement rule for every Sichuan city.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "51",
+    "jurisdiction": "Sichuan",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "SIC-2025-ACTION",
+      "SIC-2026-SERVICES"
+    ],
+    "source_urls": [
+      "https://www.sc.gov.cn/10462/zfwjts/2025/3/5/9aaaeb2e214340938f7eb3429842242d/files/%E5%B7%9D%E5%BA%9C%E5%8F%917%E5%8F%B7%E5%85%AC%E5%BC%80%E7%89%88.pdf",
+      "https://chinajob.mohrss.gov.cn/h5/c/2026-11-10/639153.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: New province-wide implementation scheme; city-level school allocation, housing queues and eligibility criteria remain to be verified.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "51",
+    "jurisdiction": "Sichuan",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "SIC-2025-ACTION",
+      "SIC-2026-SERVICES"
+    ],
+    "source_urls": [
+      "https://www.sc.gov.cn/10462/zfwjts/2025/3/5/9aaaeb2e214340938f7eb3429842242d/files/%E5%B7%9D%E5%BA%9C%E5%8F%917%E5%8F%B7%E5%85%AC%E5%BC%80%E7%89%88.pdf",
+      "https://chinajob.mohrss.gov.cn/h5/c/2026-11-10/639153.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: New province-wide implementation scheme; city-level school allocation, housing queues and eligibility criteria remain to be verified.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "51",
+    "jurisdiction": "Sichuan",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "SIC-2025-ACTION",
+      "SIC-2026-SERVICES"
+    ],
+    "source_urls": [
+      "https://www.sc.gov.cn/10462/zfwjts/2025/3/5/9aaaeb2e214340938f7eb3429842242d/files/%E5%B7%9D%E5%BA%9C%E5%8F%917%E5%8F%B7%E5%85%AC%E5%BC%80%E7%89%88.pdf",
+      "https://chinajob.mohrss.gov.cn/h5/c/2026-11-10/639153.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: New province-wide implementation scheme; city-level school allocation, housing queues and eligibility criteria remain to be verified.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "52",
+    "jurisdiction": "Guizhou",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "GUI-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.tongren.gov.cn/2025/0114/330172.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: The provincial settlement policy is broad, but service access and documentation need municipal verification; the 2025 web publication republishes a provincial plan.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "52",
+    "jurisdiction": "Guizhou",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "GUI-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.tongren.gov.cn/2025/0114/330172.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: The provincial settlement policy is broad, but service access and documentation need municipal verification; the 2025 web publication republishes a provincial plan.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "52",
+    "jurisdiction": "Guizhou",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "GUI-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.tongren.gov.cn/2025/0114/330172.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: The provincial settlement policy is broad, but service access and documentation need municipal verification; the 2025 web publication republishes a provincial plan.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "52",
+    "jurisdiction": "Guizhou",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "GUI-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.tongren.gov.cn/2025/0114/330172.shtml"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: The provincial settlement policy is broad, but service access and documentation need municipal verification; the 2025 web publication republishes a provincial plan.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "53",
+    "jurisdiction": "Yunnan",
+    "dimension": "settlement",
+    "status": "related-document",
+    "document_ids": [
+      "YUN-2023-POLICE"
+    ],
+    "source_urls": [
+      "https://gonganting.yn.gov.cn/zwgk/zcwj/qtwj/202312/t20231228_1682327.html"
+    ],
+    "evidence_type": [
+      "administrative-rule"
+    ],
+    "finding": "Indexed source: Procedural simplification documented; it does not create an unconditional right to settle or demonstrate actual school/housing access.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "53",
+    "jurisdiction": "Yunnan",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "53",
+    "jurisdiction": "Yunnan",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "53",
+    "jurisdiction": "Yunnan",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "54",
+    "jurisdiction": "Tibet",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "TIB-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://drc.xizang.gov.cn/zwgk_1941/tz/202503/t20250310_466239.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: County town hukou restrictions are addressed at regional-plan level; eligibility in Lhasa and public-service standards cannot be inferred uniformly.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "54",
+    "jurisdiction": "Tibet",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "TIB-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://drc.xizang.gov.cn/zwgk_1941/tz/202503/t20250310_466239.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: County town hukou restrictions are addressed at regional-plan level; eligibility in Lhasa and public-service standards cannot be inferred uniformly.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "54",
+    "jurisdiction": "Tibet",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "TIB-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://drc.xizang.gov.cn/zwgk_1941/tz/202503/t20250310_466239.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: County town hukou restrictions are addressed at regional-plan level; eligibility in Lhasa and public-service standards cannot be inferred uniformly.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "54",
+    "jurisdiction": "Tibet",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "TIB-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://drc.xizang.gov.cn/zwgk_1941/tz/202503/t20250310_466239.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: County town hukou restrictions are addressed at regional-plan level; eligibility in Lhasa and public-service standards cannot be inferred uniformly.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "61",
+    "jurisdiction": "Shaanxi",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "SNX-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.shaanxi.gov.cn/zfxxgk/zcwjk/szf_14998/xzgfxwj_15002/202412/W020250115550312470559.pdf"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Xi'an is the explicit exception. Plan language should not be read as verified eligibility for school, housing and social assistance throughout the province.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "61",
+    "jurisdiction": "Shaanxi",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "SNX-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.shaanxi.gov.cn/zfxxgk/zcwjk/szf_14998/xzgfxwj_15002/202412/W020250115550312470559.pdf"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Xi'an is the explicit exception. Plan language should not be read as verified eligibility for school, housing and social assistance throughout the province.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "61",
+    "jurisdiction": "Shaanxi",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "SNX-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.shaanxi.gov.cn/zfxxgk/zcwjk/szf_14998/xzgfxwj_15002/202412/W020250115550312470559.pdf"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Xi'an is the explicit exception. Plan language should not be read as verified eligibility for school, housing and social assistance throughout the province.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "61",
+    "jurisdiction": "Shaanxi",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "SNX-2024-ACTION"
+    ],
+    "source_urls": [
+      "https://www.shaanxi.gov.cn/zfxxgk/zcwjk/szf_14998/xzgfxwj_15002/202412/W020250115550312470559.pdf"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Xi'an is the explicit exception. Plan language should not be read as verified eligibility for school, housing and social assistance throughout the province.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "62",
+    "jurisdiction": "Gansu",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "GAN-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.zhangye.gov.cn/zyszfxxgk/fdzdgknr_5657/zyghgy/qygh/202502/t20250214_1356605.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Zero-threshold is a provincial policy statement; city-level documentation, public rental housing conditions and service uptake are not established here.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "62",
+    "jurisdiction": "Gansu",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "GAN-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.zhangye.gov.cn/zyszfxxgk/fdzdgknr_5657/zyghgy/qygh/202502/t20250214_1356605.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Zero-threshold is a provincial policy statement; city-level documentation, public rental housing conditions and service uptake are not established here.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "62",
+    "jurisdiction": "Gansu",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "GAN-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.zhangye.gov.cn/zyszfxxgk/fdzdgknr_5657/zyghgy/qygh/202502/t20250214_1356605.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Zero-threshold is a provincial policy statement; city-level documentation, public rental housing conditions and service uptake are not established here.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "62",
+    "jurisdiction": "Gansu",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "GAN-2025-ACTION"
+    ],
+    "source_urls": [
+      "https://www.zhangye.gov.cn/zyszfxxgk/fdzdgknr_5657/zyghgy/qygh/202502/t20250214_1356605.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Zero-threshold is a provincial policy statement; city-level documentation, public rental housing conditions and service uptake are not established here.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "63",
+    "jurisdiction": "Qinghai",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "QHA-2025-PLAN"
+    ],
+    "source_urls": [
+      "https://qh.people.com.cn/n2/2025/0125/c181467-41120698.html"
+    ],
+    "evidence_type": [
+      "government-report"
+    ],
+    "finding": "Indexed source: A policy direction is evidenced; operational thresholds and the legal text of the urban settlement rule are not independently established in this indexed record.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "63",
+    "jurisdiction": "Qinghai",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "QHA-2025-PLAN",
+      "QHA-2026-NDRC"
+    ],
+    "source_urls": [
+      "https://qh.people.com.cn/n2/2025/0125/c181467-41120698.html",
+      "https://www.ndrc.gov.cn/xwdt/dt/dfdt/202609/t20260930_1407945.html"
+    ],
+    "evidence_type": [
+      "government-report",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: An implementation/capacity report, not an applicant eligibility standard.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "63",
+    "jurisdiction": "Qinghai",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "QHA-2025-PLAN",
+      "QHA-2026-NDRC"
+    ],
+    "source_urls": [
+      "https://qh.people.com.cn/n2/2025/0125/c181467-41120698.html",
+      "https://www.ndrc.gov.cn/xwdt/dt/dfdt/202609/t20260930_1407945.html"
+    ],
+    "evidence_type": [
+      "government-report",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: An implementation/capacity report, not an applicant eligibility standard.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "63",
+    "jurisdiction": "Qinghai",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "QHA-2025-PLAN",
+      "QHA-2026-NDRC"
+    ],
+    "source_urls": [
+      "https://qh.people.com.cn/n2/2025/0125/c181467-41120698.html",
+      "https://www.ndrc.gov.cn/xwdt/dt/dfdt/202609/t20260930_1407945.html"
+    ],
+    "evidence_type": [
+      "government-report",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: An implementation/capacity report, not an applicant eligibility standard.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "64",
+    "jurisdiction": "Ningxia",
+    "dimension": "settlement",
+    "status": "direction-documented",
+    "document_ids": [
+      "NXG-2023-ACTION",
+      "NXG-2025-RESPONSE"
+    ],
+    "source_urls": [
+      "https://jst.nx.gov.cn/zwgk/zfxxgk/fdzdgknr/ghxx/202306/t20230601_4129581.html",
+      "https://nynct.nx.gov.cn/zwgk/zfxxgkml/tajybljggk/202512/t20251223_5116719.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: Regional zero-threshold reform is included in the plan; municipal service eligibility criteria are not demonstrated.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "64",
+    "jurisdiction": "Ningxia",
+    "dimension": "education",
+    "status": "direction-documented",
+    "document_ids": [
+      "NXG-2023-ACTION",
+      "NXG-2025-RESPONSE"
+    ],
+    "source_urls": [
+      "https://jst.nx.gov.cn/zwgk/zfxxgk/fdzdgknr/ghxx/202306/t20230601_4129581.html",
+      "https://nynct.nx.gov.cn/zwgk/zfxxgkml/tajybljggk/202512/t20251223_5116719.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: Regional zero-threshold reform is included in the plan; municipal service eligibility criteria are not demonstrated.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "64",
+    "jurisdiction": "Ningxia",
+    "dimension": "housing",
+    "status": "direction-documented",
+    "document_ids": [
+      "NXG-2023-ACTION"
+    ],
+    "source_urls": [
+      "https://jst.nx.gov.cn/zwgk/zfxxgk/fdzdgknr/ghxx/202306/t20230601_4129581.html"
+    ],
+    "evidence_type": [
+      "implementation-plan"
+    ],
+    "finding": "Indexed source: Regional zero-threshold reform is included in the plan; municipal service eligibility criteria are not demonstrated.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "64",
+    "jurisdiction": "Ningxia",
+    "dimension": "protection",
+    "status": "direction-documented",
+    "document_ids": [
+      "NXG-2023-ACTION",
+      "NXG-2025-RESPONSE"
+    ],
+    "source_urls": [
+      "https://jst.nx.gov.cn/zwgk/zfxxgk/fdzdgknr/ghxx/202306/t20230601_4129581.html",
+      "https://nynct.nx.gov.cn/zwgk/zfxxgkml/tajybljggk/202512/t20251223_5116719.html"
+    ],
+    "evidence_type": [
+      "implementation-plan",
+      "implementation-report"
+    ],
+    "finding": "Indexed source: Regional zero-threshold reform is included in the plan; municipal service eligibility criteria are not demonstrated.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": false,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "65",
+    "jurisdiction": "Xinjiang",
+    "dimension": "settlement",
+    "status": "rule-documented",
+    "document_ids": [
+      "XJG-2024-REG",
+      "XJG-2024-URUMQI"
+    ],
+    "source_urls": [
+      "https://www.xjtc.gov.cn/zfxxgk/xxgkzl/tcdqhsjg/tcdqhzgszzjg1/gaj/gksx7/gfxwj/content_3756",
+      "https://gat.xinjiang.gov.cn/gat/tzgg/202408/f212e42936664c199ad1da3b37fe6bcc.shtml"
+    ],
+    "evidence_type": [
+      "administrative-rule",
+      "operational-rule"
+    ],
+    "finding": "Urumqi is a municipal case and cannot establish Xinjiang-wide settlement eligibility.",
+    "unresolved": "Exact city registration categories; residence/insurance duration; landlord consent; urban-vs-rural rules; repeal checks.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only.",
+    "applicant_level_eligibility_verified": true,
+    "law_current_force_confirmed": false,
+    "implementation_outcomes_verified": false
+  },
+  {
+    "province_code": "65",
+    "jurisdiction": "Xinjiang",
+    "dimension": "education",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "2026/27 municipal migrant-child school admissions; public-school priority; permit/insurance tests; examinations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "65",
+    "jurisdiction": "Xinjiang",
+    "dimension": "housing",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Current city public-rental housing conditions; non-hukou access; financial thresholds; queues and allocations.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  },
+  {
+    "province_code": "65",
+    "jurisdiction": "Xinjiang",
+    "dimension": "protection",
+    "status": "unverified",
+    "document_ids": [],
+    "source_urls": [],
+    "evidence_type": [],
+    "finding": "No jurisdiction-specific eligibility or implementation provision in this area has been established in the indexed source set.",
+    "unresolved": "Actual health insurance enrolment, pensions, portability, subsidies, social assistance and exclusions.",
+    "actual_implementation_evaluated": false,
+    "verified_on": "2026-11-12",
+    "scope_warning": "Provincial policy plans do not establish municipal applicant eligibility; municipal examples apply to that city only."
+  }
+]
