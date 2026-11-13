@@ -1,0 +1,424 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#122e3d"/><circle cx="32" cy="32" r="24" stroke="#f0e8dc" stroke-width="2" fill="none"/><path d="M32 8v48M8 32h48M12 19q20 10 40 0M12 45q20-10 40 0" stroke="#f0e8dc" stroke-width="1.3" fill="none"/><circle cx="40" cy="26" r="7" fill="#dfaa74"/></svg>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="China Hukou Reform Observatory — a source-led research infrastructure for studying household registration, public-service eligibility, and centre–local implementation across mainland China's 31 provincial-level jurisdictions." />
+  <meta name="theme-color" content="#122e3d" />
+  <title>China Hukou Reform Observatory | Mapping policy and public services</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner page-width">
+      <a class="brand" href="#top" aria-label="China Hukou Reform Observatory home">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 42 42" width="36" height="36"><circle cx="21" cy="21" r="17" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M21 4v34M4 21h34M7 12q14 7 28 0M7 30q14-7 28 0" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="27" cy="17" r="4.5" fill="#dca969"/></svg></span>
+        <span class="brand-name">HUKOU<span class="brand-sub">OBSERVATORY</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#explorer">Explore map</a><a href="#all-provinces">Coverage</a><a href="#audit-explorer">124 evidence checks</a><a href="#comparison">Compare</a><a href="#policy-records">Policy records</a><a href="#methodology">Methodology</a></nav>
+      <a class="header-action" href="#explorer">Explore the data <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section id="top" class="hero-wrap">
+      <div class="page-width hero">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A PROVINCE-BY-PROVINCE RESEARCH PROJECT <span class="edition">EDITION 0.3</span></div>
+          <h1>Where does <em>hukou reform</em> actually reach?</h1>
+          <p class="hero-lede">Mapping the distance between China's national household registration priorities and the conditions governing urban settlement, education, housing and social protection.</p>
+          <div class="hero-buttons"><a class="btn btn-primary" href="#explorer">Explore the interactive map <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#methodology">Read our approach</a></div>
+          <p class="hero-note"><span class="tiny-dot"></span> Evidence audit · Updated 12 November 2026 · No unverified provincial scores</p>
+        </div>
+        <aside class="question-card" aria-label="Research framework">
+          <span class="mini-heading">THE CENTRAL QUESTION</span>
+          <p class="question">How do local governments translate national hukou reform priorities into different conditions for membership and access?</p>
+          <div class="question-rule"></div>
+          <div class="question-points"><div><span>01</span><p>Who can obtain local hukou?</p></div><div><span>02</span><p>Who receives public services without it?</p></div><div><span>03</span><p>Where do implementation rules diverge?</p></div></div>
+        </aside>
+      </div>
+    </section>
+    <section class="status-strip"><div class="page-width stat-grid">
+      <div class="stat"><strong id="metric-jurisdictions">31</strong><span>MAINLAND JURISDICTIONS</span></div>
+      <div class="stat"><strong id="metric-localities">124</strong><span>DIMENSION AUDIT CELLS</span></div>
+      <div class="stat"><strong id="metric-national">4</strong><span>NATIONAL DOCUMENTS VERIFIED</span></div>
+      <div class="stat"><strong id="metric-local">42</strong><span>LOCAL DOCUMENTS INDEXED</span></div>
+      <div class="stat-info"><span class="status-glyph">i</span><p>Coverage shows <strong>verified source records</strong>, not whether hukou restrictions have been reduced.</p></div>
+    </div></section>
+    <section class="framework-section page-width" aria-labelledby="framework-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">THE FRAMEWORK</span><h2 id="framework-title">Four dimensions of access</h2></div><p>Policies may expand registration opportunities without removing conditions on everyday public services. Each dimension is therefore coded separately.</p></div>
+      <div class="framework-grid">
+        <article class="framework-card"><div class="category-index">01 <span>↗</span></div><div class="category-icon">⌂</div><h3>Settlement</h3><p>Local hukou acquisition, residency, employment and points-based eligibility.</p></article>
+        <article class="framework-card"><div class="category-index">02 <span>↗</span></div><div class="category-icon">▤</div><h3>Education</h3><p>School admission, residence permits, migrant children and examination rules.</p></article>
+        <article class="framework-card"><div class="category-index">03 <span>↗</span></div><div class="category-icon">▱</div><h3>Housing</h3><p>Public rental housing, eligibility thresholds and non-local-hukou access.</p></article>
+        <article class="framework-card"><div class="category-index">04 <span>↗</span></div><div class="category-icon">✳</div><h3>Social protection</h3><p>Insurance, portability, employment services and welfare provisions.</p></article>
+      </div>
+    </section>
+    <section id="explorer" class="explore-section"><div class="page-width">
+      <div class="section-heading section-heading-split"><div><span class="overline">01 / INTERACTIVE ATLAS</span><h2>Explore the provincial landscape</h2></div><p>Select a jurisdiction, narrow the policy area and inspect the underlying documents. Colour represents source coverage, never restrictive or permissive policy.</p></div>
+      <div class="explorer-shell">
+        <div class="explorer-toolbar">
+          <div class="control"><label for="dimension">Policy dimension</label><select id="dimension"><option value="all">All dimensions</option><option value="settlement">Settlement</option><option value="education">Education</option><option value="housing">Housing</option><option value="protection">Social protection</option></select></div>
+          <div class="control"><label for="year">Records issued by</label><select id="year"><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option></select></div>
+          <div class="control search-control"><label for="province-search">Find a jurisdiction</label><input type="search" id="province-search" placeholder="Search province / municipality" autocomplete="off" /></div>
+          <div class="toolbar-side"><span class="live-dot"></span> SOURCE COVERAGE MAP</div>
+        </div>
+        <div class="atlas-grid">
+          <div class="map-column">
+            <div class="map-caption"><div><span class="mini-heading">MAINLAND CHINA</span><strong>31 provincial-level jurisdictions</strong></div><div class="map-zoom"><button type="button" id="zoom-in" aria-label="Zoom map in">+</button><button type="button" id="zoom-out" aria-label="Zoom map out">−</button><button type="button" id="zoom-reset" aria-label="Reset map zoom" title="Reset zoom">↺</button></div></div>
+            <div class="map-stage" id="map-stage">
+              <svg id="china-map" viewBox="0 0 840 545" aria-label="Interactive map of mainland China's 31 provincial-level jurisdictions" role="group"><g id="map-regions"></g></svg>
+              <div class="map-prompt" id="map-prompt" role="status">Loading province boundaries…</div>
+              <div class="map-tooltip" id="map-tooltip" hidden></div>
+            </div>
+            <div class="map-legend"><span class="legend-label">Local evidence coverage</span><span><i class="swatch swatch-verified"></i>Source verified</span><span><i class="swatch swatch-unverified"></i>Awaiting verification</span></div>
+            <p class="map-footnote">Only locally applicable documents count towards map coverage. National directives appear in the policy library below. Map geometry is indicative; see methodology and attribution.</p>
+          </div>
+          <aside class="province-panel" id="province-panel" aria-live="polite"><div class="empty-panel"><span class="empty-icon">↗</span><h3>Select a province</h3><p>Click the map or select a jurisdiction below to inspect its available policy evidence and research status.</p></div></aside>
+        </div>
+        <div class="province-directory"><div class="directory-head"><strong>Browse all jurisdictions</strong><span id="directory-count">31 entries</span></div><div id="province-list" class="province-chips"></div></div>
+      </div>
+    </div></section>
+    <section id="all-provinces" class="coverage-section page-width" aria-labelledby="coverage-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">02 / NATIONAL RESEARCH REGISTER</span><h2 id="coverage-title">All 31 jurisdictions, one research protocol</h2></div><p>Each provincial-level jurisdiction has its own dossier, two priority localities and four separate policy categories. Indexed sources are not the same as a completed legal or implementation audit.</p></div>
+      <div class="coverage-notice"><span class="status-glyph">i</span><p><strong>31 of 31 jurisdiction dossiers with source anchors.</strong> Source verification remains incomplete. Each jurisdiction has at least one geographically scoped public source record. The <strong>124 province-by-dimension audit entries</strong> distinguish documented rules, policy intentions, related administrative documents and unverified eligibility. This is not a 124-rule legal certification or a measurement of implementation.</p></div>
+      <div class="coverage-actions"><label for="coverage-search">Find province or city</label><input type="search" id="coverage-search" placeholder="Search province, city or region" autocomplete="off"/><a href="data/policy_audits_124.csv" download class="btn btn-dark">↓ Download 124 audit findings</a></div>
+      <div class="coverage-table-wrap"><table class="coverage-table"><thead><tr><th>JURISDICTION</th><th>REGION / TYPE</th><th>PRIMARY LOCALITY</th><th>COMPARISON LOCALITY</th><th>INDEXED DOCUMENTS</th><th>PROFILE</th></tr></thead><tbody id="coverage-body"></tbody></table><p id="coverage-empty" hidden class="records-empty">No matching jurisdiction.</p></div>
+      <p class="coverage-footnote">Municipalities are assessed using district-level contrast cases; these are not separate cities. Source counts include both province-wide and geographically limited documents. See <a href="PROVINCIAL_COVERAGE.md">coverage register</a> and <a href="METHODOLOGY.md">methods</a>.</p>
+    </section>
+
+    <section id="audit-explorer" class="audit-section page-width" aria-labelledby="audit-title">
+      <div class="section-heading section-heading-split"><div><span class="overline">03 / 124 EVIDENCE ASSESSMENTS</span><h2 id="audit-title">What is documented — and what is not</h2></div><p>Each province is checked separately for settlement, education, housing and social protection. A provincial programme is not a confirmed individual entitlement.</p></div>
+      <div class="audit-legend"><span><i class="mini-rule"></i>Rule documented</span><span><i class="mini-plan"></i>Policy direction</span><span><i class="mini-rel"></i>Related document</span><span><i class="mini-unknown"></i>Unverified</span></div>
+      <div class="audit-controls"><label for="audit-search" class="sr-only">Search audits</label><input type="search" id="audit-search" placeholder="Find province, policy or finding" /><label for="audit-dimension" class="sr-only">Dimension</label><select id="audit-dimension"><option value="all">All four policy areas</option><option value="settlement">Settlement</option><option value="education">Education</option><option value="housing">Housing</option><option value="protection">Social protection</option></select><label for="audit-status" class="sr-only">Evidence type</label><select id="audit-status"><option value="all">All evidence statuses</option><option value="rule-documented">Rule documented</option><option value="direction-documented">Policy direction</option><option value="related-document">Related document</option><option value="unverified">Unverified</option></select><span id="audit-count" class="audit-count">124 entries</span></div>
+      <div class="audit-wrap"><table class="audit-table"><thead><tr><th>JURISDICTION</th><th>DIMENSION</th><th>EVIDENCE CLASS</th><th>DOCUMENTED FINDING & OPEN QUESTIONS</th><th>ORIGINAL SOURCE</th></tr></thead><tbody id="audit-body"></tbody></table></div>
+      <p class="coverage-footnote">All rows record evidence as of 12 November 2026. Results are not indicators of actual service uptake or a legal opinion. <a href="data/policy_audits_124.csv" download>Download complete 124-row CSV</a>.</p>
+    </section>
+    <section id="comparison" class="comparison-section page-width"><div class="section-heading section-heading-split"><div><span class="overline">04 / COMPARATIVE LENS</span><h2>Compare jurisdictions</h2></div><p>Compare the documented evidence held in the database. The four areas are compared by type and content of evidence, not reform scores.</p></div>
+      <div class="comparison-wrap"><div class="comparison-top"><p><strong id="selection-count">0 of 3</strong> jurisdictions selected <span>· Choose from the map, province panel or selector below.</span></p><button class="link-button" id="clear-compare" type="button">Clear selection ↺</button></div><div class="compare-add"><label for="compare-select">Add a jurisdiction</label><select id="compare-select"><option value="">Select a jurisdiction…</option></select><button type="button" id="compare-add-btn" class="btn btn-dark">Add to comparison +</button></div><div id="comparison-content" class="compare-content"><div class="compare-placeholder">Choose up to three jurisdictions to begin a source-based comparison.</div></div></div>
+    </section>
+    <section id="policy-records" class="records-section"><div class="page-width"><div class="section-heading section-heading-split"><div><span class="overline">05 / DOCUMENT LIBRARY</span><h2>Policy record & timeline</h2></div><p>Trace national framework documents, local regulations, public-sector plans and municipal examples from 2014 to 2026. Dates may be publication rather than original issuance; view evidence type and the original source.</p></div>
+      <div class="records-top"><div class="records-tabs" role="group" aria-label="Filter policy records"><button type="button" data-scope="all" class="active">All records</button><button type="button" data-scope="national">National</button><button type="button" data-scope="provincial">Provincial</button><button type="button" data-scope="municipal">Municipal</button></div><div class="records-tools"><input id="records-search" type="search" aria-label="Search policy documents" placeholder="Search documents, city, or code" /><button id="export-csv" type="button" class="btn-export">↓ Export CSV</button></div></div>
+      <div class="records-table-wrap"><table class="records-table"><thead><tr><th>YEAR / DATE</th><th>POLICY DOCUMENT</th><th>LEVEL</th><th>DIMENSIONS</th><th>SOURCE</th></tr></thead><tbody id="records-body"></tbody></table><p id="records-empty" class="records-empty" hidden>No matching records in this release.</p></div>
+    </div></section>
+    <section id="methodology" class="method-section page-width"><div class="section-heading"><span class="overline">06 / RESEARCH PROTOCOL</span><h2>What this tracker does — and does not — measure</h2></div>
+      <div class="method-grid"><div class="method-lead"><p>Hukou access is not a single variable. It involves registration, residency documentation, service eligibility and the practices through which eligibility is administered.</p><a href="METHODOLOGY.md" target="_blank" rel="noopener" class="text-link">Full coding methodology ↗</a></div><div class="method-points">
+        <div><span>01</span><div><h3>Separate national ambition from local rules</h3><p>National documents establish policy priorities; they are never counted as proof that a local eligibility condition has changed.</p></div></div>
+        <div><span>02</span><div><h3>Distinguish law from implementation</h3><p>Formal policy provisions are coded separately from measured uptake, access outcomes and implementation evidence.</p></div></div>
+        <div><span>03</span><div><h3>Preserve unknowns</h3><p>Without a verified primary document, a jurisdiction is marked <em>awaiting verification</em>, not ranked as restrictive or permissive.</p></div></div>
+        <div><span>04</span><div><h3>Respect municipal variation</h3><p>Provincial jurisdiction does not imply uniformity across cities, districts or individual service schemes.</p></div></div>
+      </div></div>
+      <div class="research-next"><span class="tiny-star">✧</span><div><span class="mini-heading">RESEARCH AGENDA</span><h3>The Hukou Access Gap</h3><p>A future analytical layer will ask whether easing settlement requirements is accompanied by meaningful access to education, housing and social protection — once comparable, date-specific local evidence has been coded.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-layout"><div><div class="footer-brand">HUKOU <span>OBSERVATORY</span></div><p>An independent, source-led research prototype on Chinese household registration and local governance.</p></div><div class="footer-links"><a href="#explorer">Atlas</a><a href="#all-provinces">31-jurisdiction coverage</a><a href="#policy-records">Documents</a><a href="#methodology">Methodology</a><a href="https://github.com/BarbarossaWang/cn-atlas" target="_blank" rel="noopener">Boundary source ↗</a></div><div class="footer-copy"><p>Research prototype · November 2026</p><p>Geography: 31 mainland provincial-level jurisdictions only. No representation regarding territorial sovereignty or international boundary disputes.</p></div></div></footer>
+</body>
+</html>
+
+MIT License
+
+Copyright (c) 2026 China Hukou Reform Observatory project contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Methodology and limitations
+
+**Edition 0.3 · evidence snapshot 12 November 2026 · mainland China: 31 provincial-level jurisdictions.** Hong Kong, Macau and Taiwan are not coded within the same mainland hukou framework.
+
+## Research question
+
+How do different provincial and municipal authorities translate national hukou-reform priorities into concrete rules for acquiring local registration and accessing education, housing and social protection without a local hukou?
+
+## Comparative units
+
+The 31 province-level jurisdictions are the **national coverage frame**. Laws can be issued by a central ministry, province/autonomous region/municipality, prefecture-level city, district, or service agency. A municipal example (e.g. Dongguan, Jiaxing, Chengdu or Yantai) **never justifies the claim that its rule applies throughout the province**. The city's scope is recorded separately in `data/policies.json`. The 63 research locations are proposed subsequent research cases, not a verified municipal dataset.
+
+Each jurisdiction has four evidence records:
+1. **Settlement** — local hukou acquisition, points, duration/permit/insurance, work or housing conditions, family routes.
+2. **Education** — migrant-child compulsory school admission, permit/insurance tests, school choice and entrance examinations.
+3. **Housing** — non-local-hukou public rental housing, income/insurance/document thresholds, allocation and waiting rules.
+4. **Protection** — access to insurance, pensions, employment benefits, social assistance and portability.
+
+## Evidence classification (not a hukou openness scale)
+
+| Classification | Meaning | Does NOT mean |
+|---|---|---|
+| `rule-documented` | A domain-specific operative rule or narrowly scoped municipal case located | All related eligibility routes, amendments or enforcement are verified |
+| `direction-documented` | Government plan, directive or programme relevant to the domain | Individual right to obtain the named service |
+| `related-document` | A relevant published source without the operative conditions sought | Reforms were implemented or eligibility confirmed |
+| `unverified` | Source corpus does not yet establish the specific rule for that domain | Restrictive policy or no reform |
+
+**Evidence snapshot:** 31 jurisdictions, 124 audit cells, 46 documents (4 national, 42 local). Rule-documentation: 8 cells; policy direction: 60; related-only: 18; unverified: 38. None is a comprehensive city-by-city legal audit or verified implementation outcome.
+
+## Source hierarchy and cautions
+
+1. Government original normative text/gazette, noting dates and issue numbers.
+2. Department and municipal implementing instructions, application rules and current notices.
+3. Government monitoring/statistics to evaluate delivery, not to infer from legislation.
+4. Peer-reviewed literature and independent reporting to contextualise claims, not as substitutes for current eligibility regulations.
+
+A source URL may be an **official government reprint**, not the first publication. The `date` can be the *published/indexed* date and `effective_date` can be `null`. A dated earlier rule may have since been amended or repealed. Every entry includes a provenance URL and caveat. The site does not purport to authenticate its continuing legal effect in November 2026.
+
+The `dimension` field in the source library means a text *touches* a policy issue, not that it codifies applicant-level eligibility. The `rule-documented` class was intentionally restricted to narrower settlement instruments and a Shanghai-specific school-admission notice.
+
+## Current national baseline
+
+The 2014 State Council household-registration reform opinion, the July 2024 new-type urbanisation plan, and the May 2026 State Council residence-based public-service guidance form national background. They should **never** be counted as evidence of implementation within a particular province. Visit `data/policies.json` for original Chinese government URLs and document dates.
+
+## Future requirement before a fully verified legal audit
+
+For each of the 31 regions and all four policy areas: establish an operative **province-level framework and municipal/district eligibility rules** for at least two contrasting cities, check the issuing agency's current validity/repeals, record beneficiary categories, thresholds, documentation requirements, effective periods and exceptions, and then separately obtain administrative implementation evidence. That would entail more than 124 province-level desk assessments. Do not add a provincial composite rating until comparable units and missing-data handling are settled.
+
+## Map / interface limitations
+
+The choropleth shows indexed source coverage, **not settlement ease or service access**. It uses third-party GeoJSON as a geographic locator, with boundaries that should not be treated as a legal position on territorial claims. The year filter is retrospective by document date (cumulative issued-through-year) and is not a 'valid in that year' filter. All unknowns remain visible.
+
+## Reproducibility
+
+Each record contains source ID, date, document title, administrative level, agency, original URL, geographic scope, evidence type, concise finding and caveat; each audit record includes province × dimension, source IDs, source URLs, evidence class and unresolved check. Run `python tools/refresh_matrix.py` after updating both JSON inputs, followed by `python tools/validate_data.py`.
+
+# Provincial source-and-gap register — 12 November 2026
+
+**31/31 jurisdictions have an indexed geographically scoped document; source coverage does not mean 31 complete legal audits.** Each has four recorded evidence assessments. A city-specific rule is never generalised to its province.
+
+Statuses in the last column are ordered **settlement / education / housing / social protection**. Rule = domain-specific operative provision found in the indexed source; Plan/direction = intention or implementation programme; Related only = document addresses the subject without establishing the checked applicant-level standard; Unverified = no applicable local evidence indexed. None of these categories establishes legal currency or actual outcomes.
+
+| Jurisdiction | Primary local research site | Comparative site | Local documents | Four dimensions (S/E/H/P) |
+|---|---|---|---:|---|
+| Beijing (北京) | Chaoyang District | Tongzhou District | 2 | Rule / Unverified / Unverified / Unverified |
+| Tianjin (天津) | Heping District | Binhai New Area | 2 | Rule / Plan/direction / Unverified / Plan/direction |
+| Hebei (河北) | Shijiazhuang | Tangshan | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Shanxi (山西) | Taiyuan | Datong | 1 | Related only / Unverified / Unverified / Unverified |
+| Inner Mongolia (内蒙古) | Hohhot | Baotou | 1 | Plan/direction / Unverified / Unverified / Unverified |
+| Liaoning (辽宁) | Shenyang | Dalian | 1 | Related only / Unverified / Unverified / Unverified |
+| Jilin (吉林) | Changchun | Jilin City | 1 | Related only / Unverified / Unverified / Unverified |
+| Heilongjiang (黑龙江) | Harbin | Qiqihar | 1 | Plan/direction / Plan/direction / Unverified / Plan/direction |
+| Shanghai (上海) | Shanghai municipality (citywide) | Minhang District | 1 | Unverified / Rule / Unverified / Unverified |
+| Jiangsu (江苏) | Nanjing | Suzhou | 2 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Zhejiang (浙江) | Hangzhou | Ningbo | 2 | Rule / Plan/direction / Plan/direction / Related only |
+| Anhui (安徽) | Hefei | Wuhu | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Fujian (福建) | Fuzhou | Xiamen | 2 | Related only / Unverified / Unverified / Unverified |
+| Jiangxi (江西) | Nanchang | Ganzhou | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Shandong (山东) | Jinan | Qingdao | 1 | Rule / Related only / Related only / Related only |
+| Henan (河南) | Zhengzhou | Luoyang | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Hubei (湖北) | Wuhan | Yichang | 2 | Related only / Related only / Related only / Related only |
+| Hunan (湖南) | Changsha | Zhuzhou | 1 | Related only / Unverified / Unverified / Unverified |
+| Guangdong (广东) | Guangzhou | Shenzhen | 1 | Rule / Related only / Related only / Related only |
+| Guangxi (广西) | Nanning | Liuzhou | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Hainan (海南) | Haikou | Sanya | 1 | Plan/direction / Unverified / Unverified / Unverified |
+| Chongqing (重庆) | Yuzhong District | Wanzhou District | 1 | Related only / Unverified / Unverified / Unverified |
+| Sichuan (四川) | Chengdu | Mianyang | 3 | Rule / Plan/direction / Plan/direction / Plan/direction |
+| Guizhou (贵州) | Guiyang | Zunyi | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Yunnan (云南) | Kunming | Qujing | 1 | Related only / Unverified / Unverified / Unverified |
+| Tibet (西藏) | Lhasa | Shigatse | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Shaanxi (陕西) | Xi’an | Xianyang | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Gansu (甘肃) | Lanzhou | Tianshui | 1 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Qinghai (青海) | Xining | Haidong | 2 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Ningxia (宁夏) | Yinchuan | Shizuishan | 2 | Plan/direction / Plan/direction / Plan/direction / Plan/direction |
+| Xinjiang (新疆) | Urumqi | Kashgar | 2 | Rule / Unverified / Unverified / Unverified |
+
+**Sources and unresolved questions:** [124-entry audit CSV](data/policy_audits_124.csv) · [46-entry source register](data/source_register.csv) · [full source JSON](data/policies.json). The municipal research-site names are case-selection proposals, not claims that their rules have been verified.
+
+# China Hukou Reform Observatory
+
+**Edition 0.3 — research snapshot 12 November 2026.** A static, mobile-responsive, source-led research platform for tracking how hukou reforms are articulated and administered in the 31 mainland provincial-level jurisdictions.
+
+## Deliverables and coverage
+
+- **31 jurisdiction profiles** (22 provinces, 5 autonomous regions, 4 provincial-level municipalities).
+- **31/31 jurisdictions** have at least one geographically scoped government source anchor.
+- **124 source triage assessments**, one for each jurisdiction × settlement, education, public rental housing, and social protection.
+- **46 policy source records**, including **4 national** and **42 jurisdiction-level** records, plus a proposed roster of **63 municipality/district research locations**.
+- Interactive map with mouse/keyboard province selection, source-coverage colour, province detail panel, year and policy filters, map zoom, full jurisdiction directory, 31-province table, 124-entry audit explorer, three-jurisdiction compare panel, and searchable document library.
+- Exportable CSV files and a separate Excel research workbook (distributed alongside the ZIP).
+
+**Current evidence breakdown:** 8 rule documented, 38 unverified, 60 direction documented, 18 related document. This is an evidence *coverage* review, **not 124 completed and currently enforceable applicant-level legal determinations**. For many service areas a provincial policy sets only a direction. The website documents this distinction and shows open research questions.
+
+## Publish with GitHub Pages
+
+1. Create a **public** GitHub repository named `china-hukou-reform-observatory`.
+2. Upload the **contents** of this folder (`index.html` at repository root), including the complete `data/` folder and `.nojekyll`.
+3. Commit on `main`; navigate to **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**.
+4. Visit `https://YOUR-USERNAME.github.io/china-hukou-reform-observatory/` after the deployment completes.
+
+GitHub Pages requires no paid hosting. This package has not been pushed or published to a GitHub account.
+
+## Preview locally
+
+In this directory run `python -m http.server 8000`, then navigate to `http://localhost:8000`. Opening `index.html` as a file will not work because browser JavaScript cannot reliably load local JSON files from `file://` URLs.
+
+**Map limitation:** Province boundary GeoJSON is loaded from third-party `cn-atlas` 0.1.2 CDNs at runtime. Internet/CDN access is needed for the map, but the jurisdiction directory, audit table, record library and comparison remain available if map loading fails. Map geometry is a general-purpose locator, not an authoritative legal boundary determination. See `ATTRIBUTION.md`.
+
+## Data structure
+
+| File | Purpose |
+|---|---|
+| `data/provinces.json` | All 31 provincial-level units |
+| `data/cities.json` | 63 candidate municipal/district research case locations |
+| `data/policies.json` | 46 links to original government documentation, national and local |
+| `data/audits.json` | 124 evidence classifications, findings, links and outstanding questions |
+| `data/policy_audits_124.csv` | Portable complete evidence assessment table |
+| `data/source_register.csv` | Searchable primary-source bibliography for all 46 records |
+| `data/research_matrix.csv` | Extended province × policy-area research matrix |
+| `PROVINCIAL_COVERAGE.md` | Human-readable complete 31-jurisdiction inventory |
+| `METHODOLOGY.md` | Coding rules, limitation statements, source hierarchy |
+
+After adding/editing `data/policies.json` **also update the corresponding `data/audits.json` entries manually** (checking accurate source identifiers, findings and evidence class). Then run `python tools/refresh_matrix.py` to sync CSV outputs and `python tools/validate_data.py` to check references and structural integrity. A new policy source does **not** automatically prove applicant eligibility or current legal force.
+
+## Interpretive rules
+
+1. **Rule documented** = a source addresses a concrete applicant-level rule in that jurisdiction or an explicitly scoped municipal example, not necessarily the complete 2026 law.
+2. **Policy direction** = an official plan/guideline articulates goals but does not independently establish individual entitlement.
+3. **Related document** = registration administration, secondary implementation report, or background policy but no complete domain eligibility rule established.
+4. **Unverified** = no adequate source in the indexed corpus, not evidence that access is restrictive or reform absent.
+
+Only one city may be evidenced under a province. Most sources have **not** been cross-checked for amendments, repeals or court challenges, and no audited service delivery outcomes are included. The year selector means documents published up to a year, not necessarily valid in that year. Do **not** rank provincial policy openness or compare real service access from this dataset.
+
+## Licensing
+
+Original website is MIT-licensed. Third-party map boundary data and original government policy content remain under their respective terms. See `LICENSE` and `ATTRIBUTION.md`.
+
+:root{--ink:#142e3b;--ink2:#294453;--muted:#71828b;--paper:#f7f8f5;--cream:#f5f0e8;--white:#fff;--line:#dce4e3;--line2:#e8eeee;--teal:#1b7479;--teal-dark:#11585d;--gold:#d8a46b;--shadow:0 16px 50px rgba(18,47,58,.055);font-synthesis:none}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}body{margin:0;background:#fff;color:var(--ink);font-family:'DM Sans',Arial,sans-serif;font-size:14px;line-height:1.65}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}h1,h2,h3,p{margin:0}h1,h2,.question,.method-lead>p,.research-next h3{font-family:'Libre Baskerville',Georgia,serif;font-weight:400}h2{font-size:clamp(27px,3vw,35px);line-height:1.32;letter-spacing:-.06em}h3{font-size:16px;line-height:1.35}p{line-height:1.75}.page-width{width:min(1200px,calc(100% - 72px));margin-inline:auto}.skip-link{position:absolute;left:-999px;top:10px;background:white;padding:12px;z-index:100}.skip-link:focus{left:10px}.site-header{background:#fff;border-bottom:1px solid #e3e8e8;position:sticky;top:0;z-index:60}.header-inner{min-height:75px;display:flex;align-items:center;gap:36px}.brand{display:flex;align-items:center;gap:10px;color:var(--ink)}.brand-icon{display:flex;color:#215f66}.brand-name{font-weight:700;font-size:17px;letter-spacing:.19em;line-height:1}.brand-sub{display:block;letter-spacing:.27em;font-size:8px;color:var(--teal);margin-top:5px}.desktop-nav{display:flex;align-items:center;gap:30px;margin-left:auto}.desktop-nav a{font-size:12px;color:#526772;font-weight:700}.desktop-nav a:hover{color:var(--teal)}.header-action{background:#ecf4f1;color:#1c5e63;padding:11px 15px;border-radius:5px;font-size:12px;font-weight:700;white-space:nowrap}.header-action span{margin-left:8px}.hero-wrap{background:linear-gradient(111deg,#143343 0%,#102d3a 62%,#1a3c44 100%);color:#fff;overflow:hidden;position:relative}.hero-wrap:after{content:'';position:absolute;width:550px;height:550px;border:1px solid rgba(255,255,255,.05);border-radius:50%;right:-180px;top:-100px;box-shadow:0 0 0 80px rgba(255,255,255,.018),0 0 0 160px rgba(255,255,255,.012);pointer-events:none}.hero{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.75fr);align-items:center;gap:90px;padding-top:91px;padding-bottom:91px}.eyebrow,.overline,.mini-heading{font-size:10px;letter-spacing:.16em;font-weight:700}.eyebrow{color:#a9c7ca;display:flex;align-items:center;gap:10px}.eyebrow-line{width:25px;height:1px;background:#d8a46b}.edition{font-size:9px;padding:3px 7px;border:1px solid #557279;color:#d3e1df;margin-left:6px;border-radius:3px}.hero h1{margin-top:26px;font-size:clamp(36px,4.1vw,58px);letter-spacing:-.075em;line-height:1.22;max-width:660px}.hero h1 em{color:#d4af85;font-style:italic}.hero-lede{font-size:15px;color:#c2d3d6;max-width:615px;margin-top:24px;line-height:1.85}.hero-buttons{display:flex;gap:12px;margin-top:33px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:13px;border:0;border-radius:4px;font-size:12px;font-weight:700;padding:13px 17px;text-align:center}.btn-primary{background:#e5bc89;color:#1c3846}.btn-primary:hover{background:#f1c999}.btn-secondary{background:transparent;color:#f5f9f6;border:1px solid #547078}.btn-secondary:hover{background:#244554}.btn-dark{background:var(--ink);color:white;padding:12px 16px}.hero-note{font-size:11px;color:#a3bbc0;margin-top:34px;display:flex;align-items:center;gap:8px}.tiny-dot,.live-dot{display:inline-block;border-radius:50%;width:6px;height:6px;background:var(--gold)}.question-card{background:#f3f0e9;color:var(--ink);padding:33px 34px 26px;border-radius:5px;box-shadow:var(--shadow)}.question-card .mini-heading{color:#a67a48}.question{font-size:23px;line-height:1.55;margin-top:20px;letter-spacing:-.055em}.question-rule{height:1px;background:#ddd8d0;margin:25px 0 12px}.question-points>div{display:flex;align-items:baseline;gap:17px;padding:11px 0}.question-points span{font-size:11px;letter-spacing:.05em;color:#b08352;font-weight:700}.question-points p{font-size:13px;font-weight:600;line-height:1.5}.status-strip{border-bottom:1px solid var(--line);background:#fcfdfb}.stat-grid{display:grid;grid-template-columns:repeat(4,minmax(95px,1fr)) minmax(205px,1.3fr);align-items:stretch}.stat{padding:24px 18px 22px 0;border-right:1px solid #e6ebea;display:flex;flex-direction:column;gap:4px}.stat:not(:first-child){padding-left:24px}.stat strong{font-size:30px;line-height:1.1;letter-spacing:-.05em;font-weight:600;color:var(--ink)}.stat span{font-size:9px;line-height:1.5;letter-spacing:.12em;font-weight:700;color:#74868a}.stat-info{display:flex;align-items:center;gap:10px;padding-left:23px}.status-glyph{width:21px;height:21px;border:1px solid #7b9d9d;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--teal);font-weight:700;flex:none}.stat-info p{font-size:11px;color:#5f727a;line-height:1.55}.framework-section{padding-top:86px;padding-bottom:88px}.section-heading{margin-bottom:30px}.section-heading-split{display:flex;align-items:end;justify-content:space-between;gap:38px}.section-heading .overline{color:var(--teal);display:block;margin-bottom:13px}.section-heading-split>p{font-size:13px;color:#6f8087;max-width:405px}.framework-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.framework-card{border:1px solid #e0e6e5;padding:22px 22px 26px;border-radius:6px;background:white;min-height:218px;transition:transform .15s,box-shadow .15s}.framework-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.category-index{display:flex;justify-content:space-between;font-size:11px;font-weight:700;color:#789291}.category-index span{font-size:17px;color:#b7c6c3}.category-icon{font-family:Georgia,serif;color:#236d72;font-size:37px;margin:10px 0 18px;line-height:1}.framework-card h3{margin-bottom:8px}.framework-card p{font-size:12px;color:#75838b;line-height:1.65}.explore-section{background:#f6f8f6;padding:77px 0 85px;border-top:1px solid #eef0ed;border-bottom:1px solid #eaeeeb}.explorer-shell{background:#fff;border:1px solid #dfe8e5;border-radius:8px;overflow:hidden;box-shadow:0 12px 35px rgba(24,53,59,.035)}.explorer-toolbar{padding:18px 22px;display:flex;align-items:end;gap:14px;border-bottom:1px solid #e6eeeb}.control{display:flex;flex-direction:column;gap:5px}.control label,.compare-add label{font-weight:700;color:#71868a;font-size:10px;letter-spacing:.07em}.control select,.control input,.compare-add select,.records-tools input{border:1px solid #dce7e5;padding:11px 34px 11px 12px;min-width:174px;border-radius:4px;color:#203f49;background-color:#fff;font-size:12px;outline-color:#2f8585}.control input{width:220px;padding-right:12px}.toolbar-side{margin-left:auto;white-space:nowrap;color:#5c807f;font-size:10px;font-weight:700;letter-spacing:.04em;padding-bottom:13px}.live-dot{background:#31918a;margin-right:6px}.atlas-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(295px,.85fr);min-height:610px}.map-column{padding:25px 23px 19px;border-right:1px solid #e6eeeb;min-width:0}.map-caption{display:flex;align-items:center;justify-content:space-between}.map-caption>div:first-child{display:flex;flex-direction:column}.map-caption .mini-heading{color:#8a9ca0;margin-bottom:2px}.map-caption strong{font-size:14px}.map-zoom{display:flex;border:1px solid #e2e8e7;border-radius:4px;overflow:hidden}.map-zoom button{border:0;border-right:1px solid #e2e8e7;background:#fff;color:#496e70;min-width:31px;height:31px;font-size:17px}.map-zoom button:last-child{border:0}.map-zoom button:hover{background:#eff5f4}.map-stage{height:464px;position:relative;margin-top:3px;overflow:hidden;background:radial-gradient(ellipse at 65% 50%,#f4faf9 0%,#f8fbfa 45%,#fff 90%)}#china-map{width:100%;height:100%;display:block;touch-action:pan-y}.map-region{fill:#e4eae8;stroke:#fff;stroke-width:1.6;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill .17s}.map-region:hover,.map-region:focus{fill:#85b5b1;outline:none;stroke:#306e72;stroke-width:2}.map-region.verified{fill:#328b88}.map-region.verified:hover,.map-region.verified:focus{fill:#1a686b}.map-region.selected{fill:#d9a665!important;stroke:#fff;stroke-width:2.7}.map-region.search-dim{opacity:.26}.map-prompt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;color:#657f83;font-size:13px;background:#f8fbfaf2;z-index:2}.map-prompt[hidden]{display:none}.map-tooltip{position:absolute;pointer-events:none;padding:9px 13px;background:#173744;color:#fff;border-radius:4px;box-shadow:var(--shadow);z-index:4;font-size:11px;max-width:200px}.map-tooltip strong{display:block}.map-tooltip span{color:#bdcfd0}.map-tooltip[hidden]{display:none}.map-legend{display:flex;align-items:center;flex-wrap:wrap;gap:16px;border-top:1px solid #ecf0ed;padding-top:15px;font-size:10px;color:#70858a}.legend-label{font-weight:700;color:#415e66;margin-right:auto}.map-legend>span:not(:first-child){display:flex;align-items:center;gap:7px}.swatch{display:inline-block;width:12px;height:12px;border-radius:2px}.swatch-verified{background:#328b88}.swatch-unverified{background:#e4eae8;border:1px solid #cfd8d7}.map-footnote{font-size:10px;color:#95a2a5;margin-top:12px;line-height:1.6}.province-panel{padding:25px 24px;background:#fff;min-width:0}.empty-panel{height:100%;display:flex;flex-direction:column;align-items:start;justify-content:center;gap:12px;color:#657f83;padding:15px}.empty-icon{font-size:39px;color:#c1d2d0}.empty-panel h3{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;color:var(--ink);font-weight:400}.empty-panel p{font-size:12px;line-height:1.8}.panel-overline{color:var(--teal);font-size:10px;letter-spacing:.12em;font-weight:700}.panel-title{font-family:'Libre Baskerville',Georgia,serif;font-size:29px;line-height:1.2;margin-top:9px;letter-spacing:-.045em}.panel-chinese{color:#7f9295;font-size:13px;margin-top:6px}.panel-meta{font-size:11px;color:#839395;margin:12px 0 20px}.status-tag{display:inline-block;background:#edf5f4;color:#1a7676;border-radius:3px;padding:5px 9px;font-size:10px;font-weight:700}.status-tag.unverified{background:#f1f3f2;color:#657779}.panel-description{margin-top:19px;font-size:12px;color:#6e8288}.panel-rule{height:1px;background:#e8efec;margin:21px 0}.panel-subtitle{font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:#3d666b;margin-bottom:13px}.panel-dimensions{display:flex;flex-direction:column;gap:11px}.panel-dimensions>div{display:flex;justify-content:space-between;gap:7px;align-items:center;font-size:12px}.count-pill{display:inline-flex;justify-content:center;align-items:center;min-width:24px;height:24px;border-radius:50%;background:#eef2f1;font-size:11px;color:#526a6d}.count-pill.nonzero{background:#daeeea;color:#146568;font-weight:700}.panel-doc{padding:12px 13px;background:#f3f8f6;border-left:3px solid #418c87;margin:12px 0}.panel-doc small{font-size:10px;color:#638688}.panel-doc a{display:block;color:#214e55;font-size:12px;line-height:1.5;font-weight:700;margin-top:4px}.panel-doc a:hover{text-decoration:underline}.panel-doc p{font-size:11px;color:#6e8488;margin-top:7px}.panel-actions{display:flex;gap:9px;margin-top:18px;flex-wrap:wrap}.panel-actions button{border:1px solid #9ac4c0;background:white;color:#175f63;padding:10px 13px;border-radius:4px;font-size:11px;font-weight:700}.panel-actions button:hover{background:#eef6f4}.directory-head{border-top:1px solid #e6eeeb;padding:18px 22px 0;display:flex;justify-content:space-between}.directory-head strong{font-size:12px}.directory-head span{font-size:11px;color:#8ba0a3}.province-chips{padding:14px 22px 22px;display:flex;flex-wrap:wrap;gap:7px}.province-chip{border:1px solid #dde7e4;border-radius:4px;background:#fff;color:#56747b;padding:7px 10px;font-size:11px;line-height:1.25}.province-chip:hover{border-color:#7caaa6}.province-chip.active{background:#1b6e72;color:white;border-color:#1b6e72}.province-chip.has-doc:before{content:'•';color:#3d9790;margin-right:5px}.province-chip.active.has-doc:before{color:#e8c794}.province-chip[hidden]{display:none}.comparison-section{padding-top:90px;padding-bottom:90px}.comparison-wrap{border:1px solid #e1e8e6;border-radius:6px;overflow:hidden}.comparison-top{display:flex;justify-content:space-between;align-items:center;padding:19px 23px;background:#f8faf8;border-bottom:1px solid #e1e8e6}.comparison-top p{font-size:12px}.comparison-top p span{color:#839195}.link-button{border:0;background:transparent;color:#28787a;font-size:11px;font-weight:700}.compare-add{display:flex;align-items:end;gap:11px;padding:20px 23px;border-bottom:1px solid #ecf1f0}.compare-add label{margin-bottom:9px}.compare-add select{flex:1;max-width:320px}.compare-content{padding:22px}.compare-placeholder{padding:35px;text-align:center;background:#fafbfa;border:1px dashed #d8e1de;color:#86979b;font-size:12px}.compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.compare-card{padding:20px 18px 18px;border:1px solid #e1e9e6;border-radius:5px;min-width:0}.compare-card h3{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:400}.compare-card .compare-summary{color:#819296;font-size:11px;margin:7px 0 18px}.compare-row{display:flex;justify-content:space-between;border-top:1px solid #e9efed;padding:11px 0;font-size:11px;gap:8px}.compare-row span:last-child{font-weight:700;color:#285c61}.compare-caveat{background:#f6f2e9;padding:12px 14px;color:#87735b;font-size:11px;line-height:1.6;margin-top:16px}.records-section{background:#f5f8f6;padding:86px 0 100px;border-block:1px solid #e8eeeb}.records-top{display:flex;justify-content:space-between;gap:17px;align-items:center;margin-bottom:19px}.records-tabs{display:flex;gap:3px;background:#e9eeec;padding:3px;border-radius:5px}.records-tabs button{border:0;background:transparent;padding:9px 13px;font-size:11px;color:#5b7478;font-weight:700;border-radius:3px}.records-tabs button.active{background:white;color:#1a6468;box-shadow:0 2px 4px #2e605d16}.records-tools{display:flex;gap:9px;align-items:center}.records-tools input{width:250px;min-width:150px;padding-right:12px}.btn-export{background:#fff;color:#245c63;border:1px solid #dce6e3;border-radius:4px;padding:10px 13px;font-size:11px;font-weight:700}.btn-export:hover{background:#e4efec}.records-table-wrap{overflow-x:auto;border:1px solid #dfe8e4;border-radius:6px;background:white}.records-table{border-collapse:collapse;width:100%;min-width:725px;text-align:left}.records-table thead{background:#f9fbfa}.records-table th{padding:14px 18px;border-bottom:1px solid #e0e9e5;font-size:9px;letter-spacing:.1em;color:#7e9395}.records-table td{padding:19px 18px;vertical-align:top;border-bottom:1px solid #edf1ef;font-size:11px;color:#5d757a}.records-table tbody tr:last-child td{border:0}.records-table td:first-child{white-space:nowrap;font-weight:700;color:#356c70}.doc-title{display:block;color:#203b47;font-size:12px;line-height:1.45;font-weight:700}.doc-title-zh{font-size:10px;color:#819698;line-height:1.5;display:block;margin-top:5px}.doc-notes{font-size:10px;line-height:1.5;color:#73878b;display:block;margin-top:7px;max-width:375px}.level-chip{padding:4px 7px;border-radius:3px;display:inline-block;font-size:9px;font-weight:700;background:#edf4f3;color:#327379}.level-chip.local{background:#f8efe5;color:#8d683d}.dim-chip{display:inline-block;border:1px solid #dce6e3;border-radius:3px;padding:3px 5px;font-size:9px;color:#71878a;margin:2px}.source-link{font-weight:700;color:#1e7175;white-space:nowrap}.source-link:hover{text-decoration:underline}.records-empty{padding:23px;color:#89999a;text-align:center}.method-section{padding-top:95px;padding-bottom:105px}.method-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:94px;align-items:start}.method-lead>p{font-size:22px;line-height:1.7;letter-spacing:-.025em}.text-link{display:inline-block;margin-top:24px;font-size:12px;color:#166d73;font-weight:700;border-bottom:1px solid #8abfbb;padding-bottom:4px}.method-points>div{display:grid;grid-template-columns:35px 1fr;gap:8px;border-top:1px solid #e1e9e6;padding:17px 0 20px}.method-points>div>span{font-size:11px;color:#338482;font-weight:700}.method-points h3{font-size:13px;margin:0 0 5px}.method-points p{font-size:12px;color:#798d90;line-height:1.75}.research-next{margin-top:50px;background:#f3f6f2;border-left:3px solid #4a9690;padding:28px 30px;display:grid;grid-template-columns:35px 1fr;gap:8px;max-width:930px}.tiny-star{font-size:25px;color:#76a7a3}.research-next .mini-heading{color:#518581}.research-next h3{font-size:25px;margin:6px 0 8px}.research-next p{font-size:12px;color:#698287;max-width:730px}.site-footer{background:#122f3b;color:#c3d4d6;padding:43px 0 55px}.footer-layout{display:grid;grid-template-columns:1.2fr .55fr 1fr;gap:55px}.footer-brand{color:#fff;font-weight:700;font-size:16px;letter-spacing:.14em}.footer-brand span{color:#a5cccb;font-size:10px;letter-spacing:.1em}.site-footer p{font-size:11px;color:#9db8bd;margin-top:12px;line-height:1.7}.footer-links{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.footer-links a{font-size:11px}.footer-links a:hover{text-decoration:underline}.footer-copy p{margin:0 0 10px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1050px){.page-width{width:min(100% - 44px,1200px)}.desktop-nav{gap:14px}.hero{gap:40px}.hero h1{font-size:43px}.stat-grid{grid-template-columns:repeat(4,1fr)}.stat-info{display:none}.toolbar-side{display:none}.atlas-grid{grid-template-columns:1.4fr 1fr}.map-column{padding:22px 15px}.map-stage{height:390px}.framework-card{padding:19px}}
+@media(max-width:780px){.page-width{width:calc(100% - 32px)}.header-inner{min-height:66px}.brand-icon svg{width:29px}.brand-name{font-size:14px}.desktop-nav{display:none}.header-action{margin-left:auto;font-size:10px}.hero{grid-template-columns:1fr;padding:58px 0 48px;gap:35px}.hero h1{font-size:clamp(35px,8.5vw,50px)}.hero-lede{font-size:13px}.question-card{padding:24px}.question{font-size:20px}.status-strip .stat-grid{grid-template-columns:repeat(2,1fr)}.stat{padding:18px 12px!important;border-bottom:1px solid #e7edeb}.stat:nth-child(even){border-right:0}.framework-section,.comparison-section,.method-section{padding-block:60px}.framework-grid{grid-template-columns:repeat(2,1fr)}.section-heading-split{display:block}.section-heading-split>p{margin-top:12px;max-width:none}.explore-section,.records-section{padding-block:60px}.explorer-toolbar{flex-wrap:wrap}.control{flex:1 1 40%}.control select,.control input{width:100%;min-width:0}.search-control{flex-basis:100%}.atlas-grid{grid-template-columns:1fr}.map-column{border-right:0;border-bottom:1px solid var(--line)}.map-stage{height:420px}.province-panel{min-height:270px}.map-legend{gap:10px}.method-grid{grid-template-columns:1fr;gap:32px}.compare-grid{grid-template-columns:1fr}.records-top{flex-wrap:wrap}.records-tools{width:100%}.records-tools input{flex:1;width:auto}.footer-layout{grid-template-columns:1fr 1fr;gap:25px}.footer-copy{grid-column:1/-1}}
+@media(max-width:480px){.hero h1{font-size:37px}.hero-buttons .btn{width:100%}.eyebrow{font-size:8px;flex-wrap:wrap}.hero-note{font-size:10px}.framework-grid{gap:9px}.framework-card{padding:17px 14px;min-height:233px}.framework-card p{font-size:11px}.stat strong{font-size:26px}h2{font-size:27px}.explorer-toolbar{padding:16px 13px;gap:11px}.map-column{padding:17px 10px}.map-stage{height:310px}.map-caption strong{font-size:12px}.map-legend{font-size:9px}.legend-label{width:100%}.province-panel{padding:20px}.directory-head{padding:16px 14px 0}.province-chips{padding:12px 14px 18px}.comparison-top{padding:15px;align-items:start}.comparison-top p{font-size:11px}.comparison-top p span{display:block}.compare-add{flex-wrap:wrap;padding:16px}.compare-add label{width:100%;margin-bottom:-5px}.compare-add select,.compare-add button{width:100%;max-width:none}.compare-content{padding:13px}.records-tools{flex-wrap:wrap}.records-tools input{width:100%;flex-basis:100%}.records-tools button{width:100%}.footer-layout{display:block}.footer-links{margin:22px 0}.research-next{grid-template-columns:1fr;padding:22px}}
+
+/* Version 0.2: complete 31-jurisdiction coverage register */
+.coverage-section{padding-top:86px;padding-bottom:90px}.coverage-notice{padding:15px 18px;background:#f1f7f4;border:1px solid #daeae4;border-radius:5px;display:flex;align-items:start;gap:12px;margin-bottom:20px}.coverage-notice p{font-size:12px;line-height:1.6;color:#3b6368}.coverage-notice .status-glyph{margin-top:2px}.coverage-actions{display:flex;align-items:center;gap:12px;margin:0 0 18px;flex-wrap:wrap}.coverage-actions label{font-size:11px;font-weight:700;color:#668086}.coverage-actions input{border:1px solid #dae5e2;border-radius:4px;padding:10px 14px;min-width:245px;flex:1;font-size:12px;max-width:460px;outline-color:#218781}.coverage-actions .btn{padding:11px 15px}.coverage-table-wrap{overflow:auto;border:1px solid #e0e8e5;border-radius:6px}.coverage-table{border-collapse:collapse;text-align:left;width:100%;min-width:800px}.coverage-table thead{background:#f6f8f6}.coverage-table th{font-size:9px;letter-spacing:.08em;color:#728e91;padding:12px 15px;border-bottom:1px solid #e0e8e5}.coverage-table td{padding:13px 15px;border-bottom:1px solid #ecf0ee;font-size:11px;color:#526e74}.coverage-table tr:last-child td{border:0}.coverage-table td strong{font-size:12px;color:#233e48}.province-name-zh{display:block;color:#91a2a3;font-size:10px}.coverage-count{display:inline-block;font-size:10px;padding:3px 7px;background:#f1f4f3;color:#73878a;border-radius:3px}.coverage-count.present{background:#e0f0ec;color:#1b6a68;font-weight:700}.coverage-open{border:0;background:transparent;color:#277b79;font-weight:700;font-size:11px;white-space:nowrap}.coverage-open:hover{text-decoration:underline}.coverage-footnote{font-size:11px;color:#819398;margin-top:13px}.coverage-footnote a{color:#21777b;text-decoration:underline}.research-stage{font-size:9px;padding:2px 5px;background:#eff4f1;color:#557f7b;border-radius:3px;margin-left:3px}.province-panel .panel-description{margin-bottom:9px}
+@media(max-width:780px){.coverage-section{padding-top:60px;padding-bottom:60px}.coverage-actions{align-items:stretch}.coverage-actions label{width:100%}.coverage-actions input,.coverage-actions .btn{width:100%;max-width:none;min-width:0}}
+
+/* v0.3 source-linked audit details */
+.audit-section{padding-top:74px;padding-bottom:92px}.audit-legend{display:flex;gap:19px;flex-wrap:wrap;font-size:11px;color:#58777b;margin:0 0 21px}.audit-legend span{display:flex;align-items:center;gap:7px}.audit-legend i{display:inline-block;width:11px;height:11px;border-radius:2px}.mini-rule{background:#3b887b}.mini-plan{background:#c3a16d}.mini-rel{background:#779bb4}.mini-unknown{background:#d7dddb}.audit-controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:15px}.audit-controls input{flex:2;min-width:200px}.audit-controls select{flex:1;min-width:165px}.audit-controls input,.audit-controls select{font-size:12px;padding:12px 11px;border:1px solid #d9e6e3;background:#fff;border-radius:4px}.audit-count{font-size:10px;color:#68858a;font-weight:700}.audit-wrap{border:1px solid #e0e8e5;border-radius:5px;overflow-x:auto;max-height:590px;overflow-y:auto}.audit-table{width:100%;min-width:790px;border-collapse:collapse;text-align:left}.audit-table th{position:sticky;top:0;background:#f1f5f3;color:#688286;font-size:9px;letter-spacing:.05em;padding:13px;z-index:1}.audit-table td{font-size:11px;padding:14px;border-bottom:1px solid #ebf0ee;vertical-align:top;color:#4f6d71;line-height:1.55}.audit-table td:nth-child(4){min-width:295px;max-width:590px}.audit-table td strong{color:#1e4249}.audit-tag{display:inline-block;border-radius:2px;padding:4px 7px;white-space:nowrap;font-size:10px}.tag-rule-documented{color:#1d665a;background:#e2f1eb}.tag-direction-documented{color:#886a39;background:#f9f1df}.tag-related-document{color:#386584;background:#e7f1f8}.tag-unverified{color:#657474;background:#edf1f0}.audit-unresolved{display:block;color:#95a09f;font-size:10px;margin-top:5px}.panel-audit{padding:10px 0 12px;border-bottom:1px solid #edf1ef}.panel-audit b{font-size:11px;color:#265e61}.panel-audit p{font-size:11px;line-height:1.55;color:#587579;margin:6px 0}.panel-audit small{font-size:10px;line-height:1.5;color:#8b9b9a;display:block}.compare-audit{padding:11px 0;border-top:1px solid #e9efed}.compare-audit>span{display:flex;justify-content:space-between;gap:10px;font-size:11px;font-weight:700;color:#376165}.compare-audit b{font-size:9px;color:#9b7d53}.compare-audit p{font-size:10px;color:#71898d;line-height:1.55;margin-top:6px}.status-strip .stat strong{font-variant-numeric:tabular-nums}@media(max-width:780px){.audit-section{padding-block:55px}.audit-controls input,.audit-controls select{width:100%;flex-basis:100%}}
+
+
+/* China Hukou Reform Observatory — source-led interactive prototype.
+   Coverage codes classify evidence types rather than policy openness or outcomes.
+   Boundary file: cn-atlas v0.1.2 (ISC, derived from shengshixian.com; see ATTRIBUTION.md). */
+'use strict';
+const $ = id => document.getElementById(id);
+const DIMS = {settlement:'Settlement',education:'Education',housing:'Housing',protection:'Social protection'};
+const state = {provinces:[],policies:[],cities:[],audits:[],dimension:'all',year:2026,query:'',selected:null,compare:[],recordsScope:'all',recordsQuery:'',coverageQuery:'',zoom:1,boundaries:null};
+const escapeHtml = v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const byCode = c => state.provinces.find(p=>p.code===c);
+const localDocs = (code,dim='all',year=2026) => state.policies.filter(p=>p.province_code===code && p.level!=='national' && +p.date.slice(0,4)<=year && (dim==='all'||p.dimensions.includes(dim)));
+const docsFor = (code,dim=state.dimension) => localDocs(code,dim,state.year);
+const auditFor = (code,dim) => state.audits.find(a=>a.province_code===code && a.dimension===dim);
+const evidenceLabel = {'rule-documented':'Rule documented','direction-documented':'Policy direction','related-document':'Related document','unverified':'Unverified'};
+const visibleAudit = (code,dim) => {const a=auditFor(code,dim);if(!a)return null;const docs=localDocs(code,dim,state.year);if(!docs.length)return {...a,status:'unverified',finding:'No locally scoped document in this dimension was indexed by the selected year.',source_urls:[]};return {...a,document_ids:docs.map(x=>x.id),source_urls:docs.map(x=>x.url),status:docs.some(x=>(dim==='settlement'&&['BEI-2020-POINTS','TJN-2021-PERMIT','ZHE-2024-JIAXING','SDG-2026-YANTAI','GDG-2024-DONGGUAN','SIC-2026-CHENGDU','XJG-2024-URUMQI'].includes(x.id))||(dim==='education'&&x.id==='SHA-2026-EDU'))?'rule-documented':docs.some(x=>['implementation-plan','implementation-measures','policy-directive','strategic-plan','targeted-measures'].includes(x.evidence_type))?'direction-documented':'related-document',finding:docs[docs.length-1].finding||docs[docs.length-1].summary};};
+const nationalDocs = () => state.policies.filter(p=>p.level==='national' && +p.date.slice(0,4)<=state.year && (state.dimension==='all'||p.dimensions.includes(state.dimension)));
+const allYears =()=>Array.from({length:2026-2014+1},(_,i)=>2026-i);
+function setCounts(){ $('metric-jurisdictions').textContent=state.provinces.length; $('metric-national').textContent=state.policies.filter(p=>p.level==='national').length; $('metric-local').textContent=state.policies.filter(p=>p.level!=='national').length; $('metric-localities').textContent=state.audits.length; }
+function renderDirectory(){
+ const q=state.query.trim().toLowerCase();const list=state.provinces.filter(p=>[p.name,p.name_zh,p.code,p.capital,p.region].join(' ').toLowerCase().includes(q));
+ $('directory-count').textContent=`${list.length} of ${state.provinces.length} entries`;
+ $('province-list').innerHTML=list.map(p=>`<button class="province-chip ${p.code===state.selected?'active':''} ${docsFor(p.code).length?'has-doc':''}" data-province="${p.code}" type="button" title="${escapeHtml(p.name_zh)}">${escapeHtml(p.name)}</button>`).join('')||'<span class="records-empty">No jurisdiction matches this search.</span>';
+ $('province-list').querySelectorAll('[data-province]').forEach(btn=>btn.addEventListener('click',()=>selectProvince(btn.dataset.province)));
+}
+function renderCoverage(){
+ const q=state.coverageQuery.trim().toLowerCase();
+ const all=state.provinces.filter(p=>[p.name,p.name_zh,p.region,p.type,...state.cities.filter(c=>c.province_code===p.code).map(c=>c.name)].join(' ').toLowerCase().includes(q));
+ const rows=all.map(p=>{const cs=state.cities.filter(c=>c.province_code===p.code && c.priority==='Primary' || c.province_code===p.code && c.priority==='Comparative');const docs=localDocs(p.code,'all',2026).length;return `<tr><td><strong>${escapeHtml(p.name)}</strong><span class="province-name-zh">${escapeHtml(p.name_zh)}</span></td><td>${escapeHtml(p.region)}<span class="province-name-zh">${escapeHtml(p.type)}</span></td><td>${escapeHtml(cs.find(c=>c.priority==='Primary')?.name || p.capital)}</td><td>${escapeHtml(cs.find(c=>c.priority==='Comparative')?.name || '—')}</td><td><span class="coverage-count ${docs?'present':''}">${docs?docs+' indexed':'Awaiting source'}</span></td><td><button type="button" class="coverage-open" data-coverage="${p.code}">Explore ↗</button></td></tr>`});
+ $('coverage-body').innerHTML=rows.join('');$('coverage-empty').hidden=rows.length>0;
+ $('coverage-body').querySelectorAll('[data-coverage]').forEach(b=>b.addEventListener('click',()=>{selectProvince(b.dataset.coverage);location.hash='explorer'}));
+}
+function getProvinceSummary(p){const total=localDocs(p.code,'all',2026).length;return (p.audit_summary||'No finding documented')+` · ${total} local source record${total===1?'':'s'} indexed. Plans are not proof of effective access.`}
+function renderProvincePanel(){
+ const panel=$('province-panel');let p=byCode(state.selected);
+ if(!p){panel.innerHTML=`<div class="empty-panel"><span class="empty-icon">↗</span><h3>Select a province</h3><p>Click the map or select a jurisdiction below to inspect available policy evidence and research status.</p></div>`;return}
+ const records=docsFor(p.code);const fullDocs=localDocs(p.code,'all',2026);const city=state.cities.filter(x=>x.province_code===p.code);
+ let rows=Object.entries(DIMS).map(([key,label])=>{const a=visibleAudit(p.code,key);return `<div><span>${label}</span><span class="count-pill ${a?.status!=='unverified'?'nonzero':''}" title="${escapeHtml(a?.status||'unverified')}">${escapeHtml(evidenceLabel[a?.status]||'Unverified')}</span></div>`}).join('');
+ let recHTML=records.map(doc=>`<div class="panel-doc"><small>${escapeHtml(doc.date)} · ${escapeHtml(doc.level)}</small><a href="${escapeHtml(doc.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(doc.title)} ↗</a><p>${escapeHtml(doc.finding||doc.summary)}</p></div>`).join('');
+ const box=records.length ? `<div class="panel-rule"></div><p class="panel-subtitle">Verified local documents</p>${recHTML}` : `<div class="panel-rule"></div><p class="panel-subtitle">Local evidence</p><p class="panel-description">No verified local document matches the selected dimension and year. Try “All dimensions” and 2026, or consult the national policy library.</p>`;
+ panel.innerHTML=`<div class="panel-overline">JURISDICTION PROFILE · ${escapeHtml(p.code)}</div><h3 class="panel-title">${escapeHtml(p.name)}</h3><div class="panel-chinese">${escapeHtml(p.name_zh)}</div><p class="panel-meta">${escapeHtml(p.type)} · ${escapeHtml(p.region)} China · Capital: ${escapeHtml(p.capital)}</p><span class="status-tag ${fullDocs.length?'':'unverified'}">${fullDocs.length?'Local source on record':'Local rules awaiting verification'}</span><p class="panel-description">${escapeHtml(getProvinceSummary(p))}</p><div class="panel-rule"></div><p class="panel-subtitle">Verified records by dimension</p><div class="panel-dimensions">${rows}</div><div class="panel-rule"></div><p class="panel-subtitle">Four-dimensional evidence audit</p>${Object.entries(DIMS).map(([key,label])=>{const a=visibleAudit(p.code,key);return `<div class="panel-audit"><b>${escapeHtml(label)} · ${escapeHtml(evidenceLabel[a?.status]||'Unverified')}</b><p>${escapeHtml(a?.finding||'Not documented')}</p><small>Unresolved: ${escapeHtml(a?.unresolved||'City-level rules not examined')}</small></div>`}).join('')}${city.length?`<div class="panel-rule"></div><p class="panel-subtitle">Local research priorities (unverified until sourced)</p>${city.map(c=>`<p class="panel-description"><strong>${escapeHtml(c.name)}</strong> <span class="research-stage">${escapeHtml(c.priority||'Primary')}</span> — ${escapeHtml(c.scope)}</p>`).join('')}`:''}${box}<div class="panel-actions"><button type="button" id="panel-compare">${state.compare.includes(p.code)?'Remove from comparison':'Add to comparison +'}</button><button type="button" id="panel-sources">Browse documents ↗</button></div>`;
+ $('panel-compare').addEventListener('click',()=>toggleCompare(p.code));$('panel-sources').addEventListener('click',()=>{state.recordsScope='all';state.recordsQuery=p.name.toLowerCase();$('records-search').value=p.name;document.querySelectorAll('.records-tabs button').forEach(b=>b.classList.toggle('active',b.dataset.scope==='all'));renderRecords();location.hash='policy-records'});
+}
+function selectProvince(code){if(!byCode(code))return;state.selected=code;renderProvincePanel();renderDirectory();renderMapStyle();}
+function addCompare(code){if(!byCode(code)||state.compare.includes(code)||state.compare.length>=3)return;state.compare.push(code);renderComparison();renderProvincePanel()}
+function toggleCompare(code){const i=state.compare.indexOf(code);if(i<0)addCompare(code);else{state.compare.splice(i,1);renderComparison();renderProvincePanel()}}
+function renderComparison(){
+ const target=$('comparison-content');$('selection-count').textContent=`${state.compare.length} of 3`;
+ $('compare-select').innerHTML='<option value="">Select a jurisdiction…</option>'+state.provinces.filter(p=>!state.compare.includes(p.code)).map(p=>`<option value="${p.code}">${escapeHtml(p.name)} (${escapeHtml(p.name_zh)})</option>`).join('');$('compare-add-btn').disabled=state.compare.length>=3;
+ if(!state.compare.length){target.innerHTML='<div class="compare-placeholder">Choose up to three jurisdictions to begin a source-based comparison.</div>';return}
+ target.innerHTML=`<div class="compare-grid">${state.compare.map(c=>{const p=byCode(c);return `<article class="compare-card"><div class="panel-overline">${escapeHtml(p.type)} · ${escapeHtml(p.region)}</div><h3>${escapeHtml(p.name)}</h3><div class="compare-summary">${escapeHtml(p.name_zh)} · ${escapeHtml(p.capital)}</div>${Object.entries(DIMS).map(([key,label])=>{const a=visibleAudit(p.code,key);return `<div class="compare-audit"><span>${label} <b>${escapeHtml(evidenceLabel[a?.status]||'Unverified')}</b></span><p>${escapeHtml(a?.finding||'No source')}</p></div>`}).join('')}<div class="compare-row"><span>Local documents (total)</span><span>${docsFor(p.code,'all').length}</span></div><button type="button" class="link-button" data-remove="${p.code}" style="margin-top:15px">Remove ×</button></article>`}).join('')}</div><p class="compare-caveat">These are source-based, potentially asymmetric findings, not openness scores or evidence of policy implementation. A municipal example cannot be generalised to its entire province. Missing data mean unverified, not restrictive.</p>`;
+ target.querySelectorAll('[data-remove]').forEach(b=>b.addEventListener('click',()=>toggleCompare(b.dataset.remove)));
+}
+function renderAuditTable(){const tb=$('audit-body');if(!tb)return;const q=($('audit-search')?.value||'').trim().toLowerCase(),dim=$('audit-dimension')?.value||'all', status=$('audit-status')?.value||'all';const list=state.audits.filter(a=>(dim==='all'||a.dimension===dim)&&(status==='all'||a.status===status)&&[a.jurisdiction,byCode(a.province_code)?.name_zh,a.finding,a.unresolved,a.province_code].join(' ').toLowerCase().includes(q));$('audit-count').textContent=`${list.length} of 124 entries`;tb.innerHTML=list.map(a=>`<tr><td><strong>${escapeHtml(a.jurisdiction)}</strong></td><td>${escapeHtml(DIMS[a.dimension])}</td><td><span class="audit-tag tag-${escapeHtml(a.status)}">${escapeHtml(evidenceLabel[a.status])}</span></td><td>${escapeHtml(a.finding)}<span class="audit-unresolved">Unresolved: ${escapeHtml(a.unresolved)}</span></td><td>${a.source_urls?.length?`<a class="source-link" href="${escapeHtml(a.source_urls[0])}" target="_blank" rel="noopener noreferrer">Open document ↗</a>`:'—'}</td></tr>`).join('');}
+function renderRecords(){
+ const q=state.recordsQuery.trim().toLowerCase();let matches=state.policies.filter(p=>(state.recordsScope==='all'||p.level===state.recordsScope)&&[p.title,p.title_zh,p.city,p.agency,p.document_number,p.summary,p.province_code,p.date].join(' ').toLowerCase().includes(q)).sort((a,b)=>b.date.localeCompare(a.date));
+ $('records-body').innerHTML=matches.map(p=>`<tr><td>${escapeHtml(p.date)}</td><td><span class="doc-title">${escapeHtml(p.title)}</span><span class="doc-title-zh">${escapeHtml(p.title_zh)}</span><span class="doc-notes">${escapeHtml(p.summary)}</span></td><td><span class="level-chip ${p.level==='national'?'':'local'}">${p.level==='national'?'National':p.level==='provincial'?'Provincial':escapeHtml(p.city||'Municipal')}</span></td><td>${p.dimensions.map(d=>`<span class="dim-chip">${escapeHtml(DIMS[d])}</span>`).join('')}</td><td><a class="source-link" target="_blank" rel="noopener noreferrer" href="${escapeHtml(p.url)}">Original ↗</a><span class="doc-title-zh">${escapeHtml(p.document_number)}</span></td></tr>`).join('');$('records-empty').hidden=matches.length>0;
+}
+function csvEscape(v){const s=String(v??'');return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s}
+function downloadCSV(){const cols=['id','level','province_code','city','title','title_zh','agency','document_number','date','effective_date','dimensions','summary','finding','status','url','verified_on'];const content=[cols.join(','),...state.policies.map(p=>cols.map(k=>csvEscape(Array.isArray(p[k])?p[k].join('; '):p[k])).join(','))].join('\r\n');const blob=new Blob(['\ufeff',content],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='hukou-observatory-policy-records.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+function merc(lat){const r=Math.max(-85,Math.min(85,lat))*Math.PI/180;return Math.log(Math.tan(Math.PI/4+r/2))}
+function projection(point){const lon=point[0],lat=point[1],x=34+(lon-73)*12.05,y=22+(merc(54.5)-merc(lat))/(merc(54.5)-merc(16.8))*482;return [Number(x.toFixed(2)),Number(y.toFixed(2))]}
+function ringPath(ring){return ring.map((coord,i)=>{const [x,y]=projection(coord);return`${i?'L':'M'}${x} ${y}`}).join('')+'Z'}
+function featurePath(feature){let g=feature.geometry;if(!g||!g.coordinates)return'';if(g.type==='Polygon')return g.coordinates.map(ringPath).join('');if(g.type==='MultiPolygon')return g.coordinates.flatMap(poly=>poly.map(ringPath)).join('');return''}
+function codeFromFeature(f){let p=f.properties||{};const raw=String(p.id||p.区划码||p.province?.id||p.province?.区划码||'');return raw.slice(0,2)}
+function getMapViewBox(){const z=state.zoom,w=840/z,h=545/z;return`${(840-w)/2} ${(545-h)/2} ${w} ${h}`}
+function renderMapStyle(){
+ document.querySelectorAll('#map-regions .map-region').forEach(path=>{let c=path.dataset.code,p=byCode(c);path.classList.toggle('verified',docsFor(c).length>0);path.classList.toggle('selected',c===state.selected);path.classList.toggle('search-dim',!!(state.query&&!([p?.name,p?.name_zh,p?.capital,p?.region,c].join(' ').toLowerCase().includes(state.query.toLowerCase()))));path.setAttribute('aria-label',`${p?.name||c}: ${docsFor(c).length?docsFor(c).length+' verified local source(s)':'local policy sources not verified'}`)})
+}
+function renderMap(){const group=$('map-regions');group.replaceChildren();for(let f of state.boundaries.features){const code=codeFromFeature(f);if(!byCode(code))continue;const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',featurePath(f));path.setAttribute('fill-rule','evenodd');path.setAttribute('class','map-region');path.setAttribute('tabindex','0');path.setAttribute('role','button');path.dataset.code=code;path.addEventListener('click',()=>selectProvince(code));path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectProvince(code)}});path.addEventListener('mousemove',e=>tooltipMove(e,code));path.addEventListener('mouseleave',()=>{$('map-tooltip').hidden=true});group.appendChild(path)}renderMapStyle();$('map-prompt').hidden=true}
+function tooltipMove(e,code){const p=byCode(code);if(!p)return;const t=$('map-tooltip'),r=$('map-stage').getBoundingClientRect();t.hidden=false;t.innerHTML=`<strong>${escapeHtml(p.name)} · ${escapeHtml(p.name_zh)}</strong><span>${docsFor(code).length?'Local document verified':'Local sources awaiting verification'}</span>`;let x=e.clientX-r.left+10,y=e.clientY-r.top+10;t.style.left=Math.min(x,Math.max(20,r.width-210))+'px';t.style.top=Math.min(y,Math.max(20,r.height-63))+'px'}
+async function loadBoundaries(){
+ const sources=['https://unpkg.com/cn-atlas@0.1.2/provinces.json','https://cdn.jsdelivr.net/npm/cn-atlas@0.1.2/provinces.json'];let error=null;
+ for(let src of sources){try{let controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12500),response;try{response=await fetch(src,{signal:controller.signal,cache:'force-cache'})}finally{clearTimeout(timer)}if(!response.ok)throw new Error('HTTP '+response.status);let data=await response.json();if(data?.type!=='FeatureCollection'||!Array.isArray(data.features))throw new Error('Unrecognised boundary file');const codes=new Set(data.features.map(codeFromFeature).filter(c=>byCode(c)));if(codes.size!==31)throw new Error(`Expected 31 mainland units, found ${codes.size}`);state.boundaries=data;renderMap();return}catch(err){error=err;console.warn('Boundary fetch failed:',src,err)}}
+ $('map-prompt').innerHTML=`<div><strong>Map geometry could not be loaded.</strong><p style="margin:9px auto 0;max-width:310px">An internet connection to the map data provider is required. The searchable province directory below remains available.</p><button class="btn btn-dark" type="button" id="retry-map" style="margin:16px auto 0">Retry map</button></div>`;$('retry-map').addEventListener('click',()=>{$('map-prompt').textContent='Loading province boundaries…';loadBoundaries()});
+}
+function registerEvents(){
+ $('dimension').addEventListener('change',e=>{state.dimension=e.target.value;renderDirectory();renderProvincePanel();renderMapStyle();renderComparison()});
+ $('year').addEventListener('change',e=>{state.year=+e.target.value;renderDirectory();renderProvincePanel();renderMapStyle();renderComparison()});
+ $('province-search').addEventListener('input',e=>{state.query=e.target.value.toLowerCase();renderDirectory();renderMapStyle()}); $('coverage-search').addEventListener('input',e=>{state.coverageQuery=e.target.value;renderCoverage()});
+ $('compare-add-btn').addEventListener('click',()=>{addCompare($('compare-select').value)});
+ $('clear-compare').addEventListener('click',()=>{state.compare=[];renderComparison();renderProvincePanel()});
+ $('records-search').addEventListener('input',e=>{state.recordsQuery=e.target.value.toLowerCase();renderRecords()});
+ document.querySelectorAll('.records-tabs button').forEach(b=>b.addEventListener('click',()=>{state.recordsScope=b.dataset.scope;document.querySelectorAll('.records-tabs button').forEach(x=>x.classList.toggle('active',x===b));renderRecords()}));
+ $('export-csv').addEventListener('click',downloadCSV);
+ [['audit-search','input'],['audit-dimension','change'],['audit-status','change']].forEach(([id,event])=>$(id)?.addEventListener(event,renderAuditTable));
+ [['zoom-in',1.25],['zoom-out',1/1.25]].forEach(([id,factor])=>$(id).addEventListener('click',()=>{state.zoom=Math.max(1,Math.min(2.8,state.zoom*factor));$('china-map').setAttribute('viewBox',getMapViewBox())}));
+ $('zoom-reset').addEventListener('click',()=>{state.zoom=1;$('china-map').setAttribute('viewBox',getMapViewBox())});
+}
+async function initialize(){
+ registerEvents();try{let [p,pol,c,a]=await Promise.all(['data/provinces.json','data/policies.json','data/cities.json','data/audits.json'].map(async url=>{let r=await fetch(url);if(!r.ok)throw Error(url+' unavailable ('+r.status+')');return r.json()}));state.provinces=p;state.policies=pol;state.cities=c;state.audits=a;setCounts();renderDirectory();renderCoverage();renderProvincePanel();renderComparison();renderRecords();renderAuditTable();loadBoundaries()}catch(e){console.error(e);$('map-prompt').textContent='Research data could not be loaded. Use GitHub Pages or a local web server (see README.md).';$('province-list').textContent='Local data unavailable.'}}
+initialize();
+
+# Mapping and source attribution
+
+## Administrative geometry
+
+The live interactive map fetches the **China Atlas (`cn-atlas`) version 0.1.2**, a derivative administrative-boundary dataset provided by [BarbarossaWang/cn-atlas](https://github.com/BarbarossaWang/cn-atlas), whose README attributes original boundary shapefiles to [ruiduobao/shengshixian.com](https://github.com/ruiduobao/shengshixian.com). Package metadata describes the redistribution as **ISC-licensed**. The site fetches data rather than redistributing a local copy. Inspect the source dataset and its upstream reuse rights before any further publishing or republication, especially if an official cartographic standard is required.
+
+The map is used as an *illustrative province selector* for research. The Observatory does not independently validate the boundary lines, and does not take a position on disputed boundaries or sovereignty.
+
+Source links: `https://unpkg.com/cn-atlas@0.1.2/provinces.json` (primary), `https://cdn.jsdelivr.net/npm/cn-atlas@0.1.2/provinces.json` (fallback).
+
+## Policy sources
+
+All policy records link to original Chinese government or government-agency documents and include document IDs or titles. Links, dates and evidence summaries appear in `data/policies.json`. Summaries are original short paraphrases written for the tracker. The project does not reprint full official texts.
+
+## Typography
+
+Uses DM Sans and Libre Baskerville from Google Fonts when available, with installed system-font fallbacks. The website does not bundle or redistribute the font files.
